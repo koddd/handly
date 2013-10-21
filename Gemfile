@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 1.2'
 #  gem 'sdoc', require: false
 #end
 
+gem 'compass-rails'
 gem 'haml-rails'
 
 # Twitter Bootstrap Build
@@ -41,6 +42,9 @@ gem 'therubyracer'
 
 group :assets do
   gem 'sass-rails'
+  # gem 'compass'
+  gem 'compass-rails'
+  
   gem 'coffee-rails'
   gem 'twitter-bootstrap-rails'
   gem 'uglifier'
