@@ -1,0 +1,32 @@
+/**
+**  Styles for All browsers
+**/
+@import "compass/reset";
+
+@import "variables/default_variables";
+@import "mixins/default_mixins";
+
+
+/* Font Font-face */
+// @import "fonts/default_fonts";
+
+/* Layout Styles */
+@import "layout/layout";
+
+
+
+/* Blocks Styles */
+// @import "blocks/forms/forms";
+// @import "blocks/userbox";
+
+
+/* Header/Footer */
+// @import "blocks/header";
+// @import "blocks/footer";
+// @import "blocks/main";
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+// @import "mobile/smartphones";
+
