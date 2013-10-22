@@ -9,15 +9,21 @@
   .header_logo
     Home page
   .header
-    Shout factory
-    %input{:type => "text", :name => "search", :placeholder => "SEARCH"}
+    %div
+      Shout factory
+    #searchbox
+      %input{:type => "text", :name => "search", :placeholder => "SEARCH"}
+    %div
+      %a{:href => "#", :class => "" } Login/Sign Up
     %ul
       %li Television
       %li Film
       %li Kids
       %li Music
-      %li
-        %a{:href => "#", :class => "" } Login/Sign Up
+    #menu
+      %a{:href => "#", :class => "" }
+        %b= image_tag("rails.png")
+        /%img{:src => image_tag 'sprites/icon_menu.png' , :alt => ''}
     
   .header-slider
     .slide
@@ -33,6 +39,8 @@
   #content
     =@title
     =@tstring
+    
+    %img{:src => "", :width => "300", :height => "300", :alt => "" }
   #footer
   %p.copyright
     Все права защищены
