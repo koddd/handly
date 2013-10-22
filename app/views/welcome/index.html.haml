@@ -1,15 +1,38 @@
 !!! 5
 %html{ html_attrs('ru') }
   %head
-    %title Мой блог
-    %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
-    = stylesheet_link_tag "main"
-  %body
-    #header
-      %h1 Мой блог @test_string
-      %h2 Записи @test_string
-    #content
-      @test_string
-    #footer
-      %p.copyright
-        Все права защищены © Иван
+  %title Мой блог
+  /%meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+  %meta{:charset => 'utf-8'}
+  = stylesheet_link_tag "style"
+%body
+  .header_logo
+    Home page
+  .header
+    Shout factory
+    %input{:type => "text", :name => "search", :placeholder => "SEARCH"}
+    %ul
+      %li Television
+      %li Film
+      %li Kids
+      %li Music
+      %li
+        %a{:href => "#", :class => "" } Login/Sign Up
+    
+  .header-slider
+    .slide
+      .info-text
+        %h2 Headline is here
+        %div 
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus. Nunc quis vehicula velit. Vestibulum a egestas lorem, nec aliquam ante. Nam adipiscing diam id commodo luctus. Etiam convallis risus et mollis suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
+        %a{:href => "#", :class => "link-button" } CTA 
+  #header
+    %h1 Мой блог, #{@tstring}
+    %h2 Записи 
+    =@tstring
+  #content
+    =@title
+    =@tstring
+  #footer
+  %p.copyright
+    Все права защищены

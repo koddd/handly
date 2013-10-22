@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Testtask::Application.config.secret_key_base = '9f790b9f7f8ea495d903f9e869e73cc46a15caf1ce2fd07c7c5d334e7273fe28b00968d540ef117d44afab4030796aa0192775e75d7a8ed740d538c0cbab2e61'
+Testtask::Application.config.secret_key_base = '41058c184194a3a509990e73904d8356f07b6c0e2aae232e0ffc64ddf7622f60e19d08a132f4a45d5e1b992d8ed7281c3fd2ebbad3f7bfb742cbbc3cfc279f76'
