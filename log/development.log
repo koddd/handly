@@ -1420,3 +1420,3279 @@ ActionController::RoutingError (No route matches [GET] "/public/stylesheets/welc
   Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (78.1ms)
   Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (484.4ms)
   Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2500.0ms)
+  [1m[36m (31.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (15.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:00:51 +0300
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `initialize'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `new'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `action_methods'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:36:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/url_for.rb:25:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:179:in `action_method?'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:230:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:17:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:130:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__133145979__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (140.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (328.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:01:44 +0300
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `initialize'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `new'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `action_methods'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:36:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/url_for.rb:25:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:179:in `action_method?'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:230:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:17:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:130:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__133145979__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (109.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:02:23 +0300
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `initialize'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `new'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `action_methods'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:36:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/url_for.rb:25:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:179:in `action_method?'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:230:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:17:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:130:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__133145979__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (125.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:02:34 +0300
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `initialize'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `new'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `action_methods'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:36:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/url_for.rb:25:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:179:in `action_method?'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:230:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:17:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:130:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__133145979__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (125.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:03:10 +0300
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `initialize'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `new'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:89:in `action_methods'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:36:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/url_for.rb:25:in `action_methods'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:179:in `action_method?'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:230:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/hide_actions.rb:17:in `method_for_action'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:130:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__133145979__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (125.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:07:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (93.8ms)
+Completed 200 OK in 18094ms (Views: 17906.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:08:17 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:17 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:08:18 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:18 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:18 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:18 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:18 +0300
+
+
+Started GET "/stylesheets/main.css" for 127.0.0.1 at 2013-10-22 14:08:18 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (109.4ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (328.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:08:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:08:32 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:08:32 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:32 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:32 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:32 +0300
+
+
+Started GET "/stylesheets/main.css" for 127.0.0.1 at 2013-10-22 14:08:33 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (125.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:33 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:08:33 +0300
+
+
+Started GET "/stylesheets/main.css" for 127.0.0.1 at 2013-10-22 14:08:33 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (140.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+
+Started GET "/stylesheets/main.css" for 127.0.0.1 at 2013-10-22 14:09:42 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (125.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+
+Started GET "/stylesheets/main.css" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (125.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+
+Started GET "/stylesheets/main.css" for 127.0.0.1 at 2013-10-22 14:11:06 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (109.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:12:00 +0300
+Processing by WelcomeController#index as HTML
+ERROR: compiling _app_views_welcome_index_html_haml__37357900_23398596 RAISED h:/www/vhosts/www.handsome.local/testtask/app/views/welcome/index.html.haml:6: syntax error, unexpected ':', expecting ')'
+...(( stylesheet_link_tag "main" :all
+...                               ^
+Function body:           def _app_views_welcome_index_html_haml__37357900_23398596(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "welcome/index";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true, :hyphenate_data_attrs=>true, :cdata=>false});_erbout = _hamlout.buffer;@output_buffer = output_buffer ||= ActionView::OutputBuffer.new rescue nil;;_hamlout.push_text("<!DOCTYPE html>\n<html#{
+_hamlout.attributes({}, nil,  html_attrs('ru') )}>\n  <head>\n    <title>Мой блог</title>\n    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>\n    #{_hamlout.adjust_tabs(2); 
+
+
+
+_hamlout.format_script_false_false_false_true_false_true_false(( stylesheet_link_tag "main" :all
+));}\n  </head>\n  <body>\n    <div id='header'>\n      <h1>Мой блог @test_string</h1>\n      <h2>Записи @test_string</h2>\n    </div>\n    <div id='content'>\n      <%= @tstring %>\n    </div>\n    <div id='footer'>\n      <p class='copyright'>\n        Все права защищены © Иван\n      </p>\n    </div>\n  </body>\n</html>\n", -2, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__334421325__process_action__callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__41682234__call__callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered welcome/index.html.haml within layouts/application (171.9ms)
+Completed 500 Internal Server Error in 188ms
+
+ActionView::Template::Error (h:/www/vhosts/www.handsome.local/testtask/app/views/welcome/index.html.haml:6: syntax error, unexpected ':', expecting ')'
+...(( stylesheet_link_tag "main" :all
+...                               ^):
+    3:   %head
+    4:     %title Мой блог
+    5:     %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:     = stylesheet_link_tag "main" :all
+    7:   %body
+    8:     #header
+    9:       %h1 Мой блог @test_string
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__334421325__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__41682234__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:13:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (109.4ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (File to import not found or unreadable: compass/reset.
+Load paths:
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/images
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/javascripts
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/sass
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/stylesheets
+  h:/www/vhosts/www.handsome.local/testtask/vendor/assets/javascripts
+  h:/www/vhosts/www.handsome.local/testtask/vendor/assets/stylesheets
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/turbolinks-1.3.0/lib/assets/javascripts
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-rails-3.0.4/vendor/assets/javascripts
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in h:/www/vhosts/www.handsome.local/testtask/app/assets/sass/style.scss:5)):
+    3:   %head
+    4:     %title Мой блог
+    5:     %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:     = stylesheet_link_tag "style"
+    7:   %body
+    8:     #header
+    9:       %h1 Мой блог @test_string
+  app/assets/sass/style.scss:5
+  app/views/welcome/index.html.haml:6:in `_app_views_welcome_index_html_haml__37357900_23289432'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:15:13 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (31.3ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (File to import not found or unreadable: compass/reset.
+Load paths:
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/images
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/javascripts
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/sass
+  h:/www/vhosts/www.handsome.local/testtask/app/assets/stylesheets
+  h:/www/vhosts/www.handsome.local/testtask/vendor/assets/javascripts
+  h:/www/vhosts/www.handsome.local/testtask/vendor/assets/stylesheets
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/turbolinks-1.3.0/lib/assets/javascripts
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-rails-3.0.4/vendor/assets/javascripts
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in h:/www/vhosts/www.handsome.local/testtask/app/assets/sass/style.scss:5)):
+    3:   %head
+    4:     %title Мой блог
+    5:     %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:     = stylesheet_link_tag "style"
+    7:   %body
+    8:     #header
+    9:       %h1 Мой блог @test_string
+  app/assets/sass/style.scss:5
+  app/views/welcome/index.html.haml:6:in `_app_views_welcome_index_html_haml__37357900_23289432'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:15:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (234.4ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:15:56 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:16:52 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:17:32 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:18:05 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
+    1:     #header
+    2:       %h1 Мой блог @tstring
+    3:       %h2 Записи @tstring
+    4:     #content
+  app/views/welcome/index.html.haml:1
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:18:41 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:18:47 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:19:19 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 0ms
+
+ActionView::Template::Error (Inconsistent indentation: 2 spaces used for indentation, but the rest of the document was indented using 4 spaces.):
+    4:     %title Мой блог
+    5:     %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:     = stylesheet_link_tag "style"
+    7:   %body
+    8:     #header
+    9:       %h1 Мой блог @tstring
+   10:       %h2 Записи @tstring
+  app/views/welcome/index.html.haml:7
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:19:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 2 spaces used for indentation, but the rest of the document was indented using 4 spaces.):
+    4:     %title Мой блог
+    5:     %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:     = stylesheet_link_tag "style"
+    7:   %body
+    8:     #header
+    9:       %h1 Мой блог @tstring
+   10:       %h2 Записи @tstring
+  app/views/welcome/index.html.haml:7
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:20:43 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:02 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:22:56 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/assets/__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:32 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:44 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:23:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:25:41 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:25:41 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:26:12 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:26:12 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:26:13 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:26:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:26:26 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/welcome (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/main.css" for 127.0.0.1 at 2013-10-22 14:26:26 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (125.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:01 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:27:02 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:27:14 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:27:14 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:27:15 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:27:15 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:30:09 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 3 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     9:     %h1 Мой блог @tstring
+    10:     %h2 Записи @tstring
+    11:   #content
+    12:    @tstring
+    13:     <%= @tstring %>
+    14:   #footer
+    15:   %p.copyright
+  app/views/welcome/index.html.haml:12
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (140.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:30:19 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 3 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     9:     %h1 Мой блог @tstring
+    10:     %h2 Записи @tstring
+    11:   #content
+    12:    tstring
+    13:     <%= @tstring %>
+    14:   #footer
+    15:   %p.copyright
+  app/views/welcome/index.html.haml:12
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:30:25 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 3 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     9:     %h1 Мой блог @tstring
+    10:     %h2 Записи @tstring
+    11:   #content
+    12:    $tstring
+    13:     <%= @tstring %>
+    14:   #footer
+    15:   %p.copyright
+  app/views/welcome/index.html.haml:12
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:31:31 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 3 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     9:     %h1 Мой блог @tstring
+    10:     %h2 Записи @tstring
+    11:   #content
+    12:    $tstring
+    13:    @title
+    14:     <%= @tstring %>
+    15:   #footer
+  app/views/welcome/index.html.haml:12
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:31:39 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 3 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     9:     %h1 Мой блог @tstring
+    10:     %h2 Записи @tstring
+    11:   #content
+    12:    tstring
+    13:    @title
+    14:     <%= @tstring %>
+    15:   #footer
+  app/views/welcome/index.html.haml:12
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:31:50 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 3 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     9:     %h1 Мой блог @tstring
+    10:     %h2 Записи @tstring
+    11:   #content
+    12:    @title
+    13:     <%= @tstring %>
+    14:   #footer
+    15:   %p.copyright
+  app/views/welcome/index.html.haml:12
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (140.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:32:16 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:32:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:32:43 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:32:43 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:33:30 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:33:54 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+ERROR: compiling _app_views_layouts_application_html_erb__118109772_23184000 RAISED h:/www/vhosts/www.handsome.local/testtask/app/views/layouts/application.html.erb:11: syntax error, unexpected tIVAR, expecting ')'
+...buffer.append=( @title @tstring );@output_buffer.safe_append...
+...                               ^
+Function body:           def _app_views_layouts_application_html_erb__118109772_23184000(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+<head>
+  <title>Testtask</title>
+  ';@output_buffer.append=( stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( javascript_include_tag "application", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( csrf_meta_tags );@output_buffer.safe_append='
+</head>
+<body>
+
+';@output_buffer.append=( @title @tstring );@output_buffer.safe_append='
+
+</body>
+</html>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__334421325__process_action__callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__41682234__call__callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (h:/www/vhosts/www.handsome.local/testtask/app/views/layouts/application.html.erb:11: syntax error, unexpected tIVAR, expecting ')'
+...buffer.append=( @title @tstring );@output_buffer.safe_append...
+...                               ^):
+     8: </head>
+     9: <body>
+    10: 
+    11: <%= @title @tstring %>
+    12: 
+    13: </body>
+    14: </html>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__334421325__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__41682234__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:25 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:34:53 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:34:53 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:34:53 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:53 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:53 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:54 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:54 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:34:54 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:35:25 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-22 14:35:26 +0300
+
+
+Started GET "/assets/!!__welcome.css?body=1" for 127.0.0.1 at 2013-10-22 14:35:26 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:26 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:26 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:26 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:26 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-22 14:35:26 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:35:53 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:35:53 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:36:36 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:36:43 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:36:43 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:36:44 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:36:44 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:37:29 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:37:44 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:37:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:38:07 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:38:22 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:38:42 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:38:43 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:39:05 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:39:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:39:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:40:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:40:55 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:41:38 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (31.3ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (undefined local variable or method `tstring' for #<#<Class:0x3768018>:0x10ef678>):
+     6:   = stylesheet_link_tag "style"
+     7: %body
+     8:   #header
+     9:     %h1 Мой блог #{tstring} =@tstring
+    10:     %h2 Записи 
+    11:     =@tstring
+    12:   #content
+  app/views/welcome/index.html.haml:9:in `_app_views_welcome_index_html_haml__37357900_10291104'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:41:46 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `tstring' for #<#<Class:0x3768018>:0x2cc7648>):
+     6:   = stylesheet_link_tag "style"
+     7: %body
+     8:   #header
+     9:     %h1 Мой блог #{tstring} =@tstring
+    10:     %h2 Записи 
+    11:     =@tstring
+    12:   #content
+  app/views/welcome/index.html.haml:9:in `_app_views_welcome_index_html_haml__37357900_10291104'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:41:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (62.5ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (undefined local variable or method `tstring' for #<#<Class:0x3768018>:0x385a730>):
+     6:   = stylesheet_link_tag "style"
+     7: %body
+     8:   #header
+     9:     %h1 Мой блог #{tstring}
+    10:     %h2 Записи 
+    11:     =@tstring
+    12:   #content
+  app/views/welcome/index.html.haml:9:in `_app_views_welcome_index_html_haml__37357900_29543724'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:41:59 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (31.3ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (undefined local variable or method `tstring' for #<#<Class:0x3768018>:0x2c86d58>):
+     6:   = stylesheet_link_tag "style"
+     7: %body
+     8:   #header
+     9:     %h1 Мой блог #{tstring}
+    10:     %h2 Записи 
+    11:     =@tstring
+    12:   #content
+  app/views/welcome/index.html.haml:9:in `_app_views_welcome_index_html_haml__37357900_29543724'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:42:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `tstring' for #<#<Class:0x3768018>:0x3479628>):
+     6:   = stylesheet_link_tag "style"
+     7: %body
+     8:   #header
+     9:     %h1 Мой блог #{tstring}
+    10:     %h2 Записи 
+    11:     =@tstring
+    12:   #content
+  app/views/welcome/index.html.haml:9:in `_app_views_welcome_index_html_haml__37357900_29543724'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:42:07 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:42:10 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:42:10 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:42:16 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:42:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:45:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:45:30 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:46:29 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:50:40 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:50:40 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:51:01 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:52:09 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (31.3ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (undefined local variable or method `meta_tag' for #<#<Class:0x3768018>:0x2c7b280>):
+    3:   %head
+    4:   %title Мой блог
+    5:   /%meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:   = meta_tag
+    7:   = stylesheet_link_tag "style"
+    8: %body
+    9:   #header
+  app/views/welcome/index.html.haml:6:in `_app_views_welcome_index_html_haml__37357900_23199744'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:54:23 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `meta_tag' for #<#<Class:0x3768018>:0x2cbff08>):
+    3:   %head
+    4:   %title Мой блог
+    5:   /%meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:   = meta_tag
+    7:   response.headers['Content-type'] = 'text/html; charset=utf-8'
+    8:   = stylesheet_link_tag "style"
+    9: %body
+  app/views/welcome/index.html.haml:6:in `_app_views_welcome_index_html_haml__37357900_23465616'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:54:47 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (62.5ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (undefined local variable or method `meta_tag' for #<#<Class:0x380da50>:0x380d270>):
+    3:   %head
+    4:   %title Мой блог
+    5:   /%meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:   = meta_tag
+    7:   = response.headers['Content-type']
+    8:   = stylesheet_link_tag "style"
+    9: %body
+  app/views/welcome/index.html.haml:6:in `_app_views_welcome_index_html_haml__37357900_29385492'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:56:26 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `meta_tag' for #<#<Class:0x380da50>:0x2c8b120>):
+    4:   %title Мой блог
+    5:   /%meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    6:   %meta{:charset => 'utf-8'}
+    7:   = meta_tag
+    8:   = response.headers['Content-type']
+    9:   = stylesheet_link_tag "style"
+   10: %body
+  app/views/welcome/index.html.haml:7:in `_app_views_welcome_index_html_haml__37357900_23350872'
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (109.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:56:37 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:56:37 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 14:59:26 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 14:59:26 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:00:03 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:00:03 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:00:48 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:00:48 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:02:34 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:02:34 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:03:13 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:03:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:05:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:05:00 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:07:04 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:      %input{:}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:08:17 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:      %input{:placeholder => SEARCH}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:10:35 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:      %input{:name => search :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:10:45 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:      %input{:name => search, :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (46.9ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (125.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:10:59 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:      %input{:name => "search", :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:11:23 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:      %input{:name => "search", :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:11:45 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:      %input{:name => "search", :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:12:17 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 0ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:       %input{:name => "search", :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:13:06 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:       %input{:type => "text", :name => "search", :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:13:38 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:       /%input{:type => "text", :name => "search", :selected => true}
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:13:49 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     7:   = stylesheet_link_tag "style"
+     8: %body
+     9:   .logo
+    10:      Home page
+    11:   .header
+    12:      Shout factory
+    13:   #header
+  app/views/welcome/index.html.haml:10
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:14:24 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (46.9ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:14:25 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:14:45 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    10:   Home page
+    11:   .header
+    12:   Shout factory
+    13:     %input{:type => "text", :name => "search", :selected => true}
+    14:       /%input{:placeholder => "SEARCH"}
+    15:   #header
+    16:     %h1 Мой блог, #{@tstring}
+  app/views/welcome/index.html.haml:13
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:15:22 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    10:   Home page
+    11:   .header
+    12:   Shout factory
+    13:     %input{:type => "text", :name => "search"}
+    14:       /%input{:placeholder => "SEARCH"}
+    15:   #header
+    16:     %h1 Мой блог, #{@tstring}
+  app/views/welcome/index.html.haml:13
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:15:35 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    10:   Home page
+    11:   .header
+    12:   Shout factory
+    13:     %input{:name => "search"}
+    14:       /%input{:placeholder => "SEARCH"}
+    15:   #header
+    16:     %h1 Мой блог, #{@tstring}
+  app/views/welcome/index.html.haml:13
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:15:48 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+    10:   Home page
+    11:   .header
+    12:   Shout factory
+    13:      %input{:name => "search"}
+    14:       /%input{:placeholder => "SEARCH"}
+    15:   #header
+    16:     %h1 Мой блог, #{@tstring}
+  app/views/welcome/index.html.haml:13
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:16:02 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    11:   .header
+    12:   Shout factory
+    13:   %input{:name => "search"}
+    14:       /%input{:placeholder => "SEARCH"}
+    15:   #header
+    16:     %h1 Мой блог, #{@tstring}
+    17:     %h2 Записи 
+  app/views/welcome/index.html.haml:14
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:16:16 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:16:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:16:52 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:16:52 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:17:08 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:17:08 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:17:20 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:17:21 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:19:01 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:19:02 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:20:20 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:20:21 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:22:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 109ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:22:59 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:23:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (46.9ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:23:19 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:23:40 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (78.1ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:23:41 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:24:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 109ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:24:19 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:24:35 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:24:36 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:24:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (78.1ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:24:55 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:25:14 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:25:15 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:25:29 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:25:30 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:27:08 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:27:08 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:28:02 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:28:03 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:29:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:29:11 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:32:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:32:30 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:33:25 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (109.4ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:33:25 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:33:26 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:33:26 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:34:28 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:34:29 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:37:08 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (109.4ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:37:09 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:37:46 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:37:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:39:33 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (156.3ms)
+Completed 200 OK in 172ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:39:33 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:39:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (171.9ms)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:39:59 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:40:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:40:11 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:40:14 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:40:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:40:40 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:40:41 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:41:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:41:01 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:41:12 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:41:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:41:45 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:41:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:42:38 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (156.3ms)
+Completed 200 OK in 172ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:42:39 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:42:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:42:59 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:43:22 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (156.3ms)
+Completed 200 OK in 156ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:43:23 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:43:45 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:43:45 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:44:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (156.3ms)
+Completed 200 OK in 172ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:44:31 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:45:48 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (187.5ms)
+Completed 200 OK in 203ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:45:49 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:46:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:46:31 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:47:19 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:47:20 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:48:06 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (187.5ms)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:48:07 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:48:23 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:48:24 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:48:44 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (140.6ms)
+Completed 200 OK in 156ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:48:45 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:49:40 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:49:41 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:51:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:51:59 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:52:47 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:52:48 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:53:38 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:53:39 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:53:42 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:53:42 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:54:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:54:19 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:55:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (156.3ms)
+Completed 200 OK in 172ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:55:01 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:55:16 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:55:17 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:56:09 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (140.6ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:56:09 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:56:28 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:56:29 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:56:43 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:56:43 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:57:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:57:55 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:58:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:58:18 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:58:27 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:58:27 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 15:58:37 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 15:58:38 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-22 16:01:17 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-22 16:01:18 +0300

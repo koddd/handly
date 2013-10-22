@@ -1,7 +1,7 @@
 /**
 **  Styles for All browsers
 **/
-@import "compass/reset";
+// @import "compass/reset";
 
 @import "variables/default_variables";
 @import "mixins/default_mixins";
@@ -12,6 +12,7 @@
 
 /* Layout Styles */
 @import "layout/layout";
+@import "layout/header_logo";
 
 
 

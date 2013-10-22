@@ -1,5 +1,7 @@
 class WelcomeController < ApplicationController
   def index
-    @test_string = "some text";
+    response.headers['Content-type'] = 'text/html; charset=utf-8'
+    @tstring = "some text!!!"
+    @title = "Teen Wolf"
   end
 end
