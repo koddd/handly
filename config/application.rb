@@ -21,5 +21,6 @@ module Testtask
     # config.i18n.default_locale = :de
     
     config.assets.enabled = false
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
