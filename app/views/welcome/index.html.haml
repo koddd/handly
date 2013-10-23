@@ -4,43 +4,212 @@
   %title Мой блог
   /%meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
   %meta{:charset => 'utf-8'}
+  %meta{:charset => Rails.application.config.encoding}
   = stylesheet_link_tag "style"
 %body
-  .header_logo
-    Home page
-  .header
-    %div
-      Shout factory
-    #searchbox
-      %input{:type => "text", :name => "search", :placeholder => "SEARCH"}
-    %div
-      %a{:href => "#", :class => "" } Login/Sign Up
-    %ul
-      %li Television
-      %li Film
-      %li Kids
-      %li Music
-    #menu
-      %a{:href => "#", :class => "" }
-        %b= image_tag("rails.png")
-        /%img{:src => image_tag 'sprites/icon_menu.png' , :alt => ''}
-    
-  .header-slider
-    .slide
-      .info-text
-        %h2 Headline is here
-        %div 
-          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus. Nunc quis vehicula velit. Vestibulum a egestas lorem, nec aliquam ante. Nam adipiscing diam id commodo luctus. Etiam convallis risus et mollis suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
-        %a{:href => "#", :class => "link-button" } CTA 
-  #header
-    %h1 Мой блог, #{@tstring}
-    %h2 Записи 
-    =@tstring
-  #content
-    =@title
-    =@tstring
-    
-    %img{:src => "", :width => "300", :height => "300", :alt => "" }
-  #footer
-  %p.copyright
-    Все права защищены
+  .main_group
+    .header
+      .header_logo
+        Home page
+      .header_menu
+        .navigation
+          .icon-menu
+            .auth
+              %a{:href => "#", :class => "" } Login/Sign Up
+            %a{ :href => "#" }
+              %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
+          %h3 Shout factory
+          .searchbox
+            %input{:type => "text", :name => "search", :id => "searchbox", :placeholder => "SEARCH"}
+          %ul.menu_top
+            %li 
+              %a{:href => "#" } Television
+            %li
+              %a{:href => "#" } Film
+            %li
+              %a{:href => "#" } Kids
+            %li
+              %a{:href => "#" } Music
+
+      .slider.header-slider
+        .wrapper
+          .wrapper_roller
+            .slide
+              %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%' }
+            
+              .info-text
+                %h2 Headline is here
+                %div
+                  %p Lorem ipsum dolor sit amet, consectetur adip<br>iscing elit. Donec nec pellentesque nisi,<br>ac mollis dui. Nullam eu sagittis lorem.<br>Maecenas sed tempus eros, nec gravida<br>tellus. Aliquam a odio purus.
+                %a.link-button{ :href => "#", :alt => "" } CTA
+        .nav
+          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
+          %a.next{ :href => "#", :alt => "Next" } Next
+
+    .main  
+      .block
+        %h2 Tentpole properties
+        
+        .slider.logo-slider
+          .wrapper
+            .wrapper_roller
+              .slide
+                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+              .slide
+                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+              .slide
+                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+              .slide
+                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+              .slide
+                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+              .slide
+                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+              .slide
+                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+          .nav
+            %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
+            %a.next{ :href => "#", :alt => "Next" } Next
+        
+      .block
+        %h2 Most popular
+        
+        .slider.twolines-slider
+          .wrapper
+            .wrapper_roller
+              .slide
+                .digits 1
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                .sub-slide
+                  .digits 2
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+                .sub-slide.row
+                  .digits 3
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+                .sub-slide
+                  .digits 4
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+                .sub-slide.row
+                  .digits 5
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .nav
+            %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
+            %a.next{ :href => "#", :alt => "Next" } Next
+                
+        
+      .block
+        %h2 New and upcoming releases
+        
+        .slider.twolines-slider
+          .wrapper
+            .wrapper_roller
+              .slide
+                .sub-slide
+                  .digits 2
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+                .sub-slide.row
+                  .digits 3
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+                .sub-slide
+                  .digits 4
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+                .sub-slide.row
+                  .digits 5
+                  %a{ :href => "#", :alt => "" }
+                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                .digits 1
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .nav
+            %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
+            %a.next{ :href => "#", :alt => "Next" } Next
+        
+      .block
+        %h2 Top tunes (most popular music)
+        
+        .slider.toptunes-slider
+          .wrapper
+            .wrapper_roller
+              .slide
+                .digits 1
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                .digits 2
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                .digits 3
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                .digits 4
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                .digits 5
+                %a{ :href => "#", :alt => "" }
+                  %img { :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .nav
+            %a.prev{ :href => "#", :alt => "Prev" } Prev 
+            %a.next{ :href => "#", :alt => "Next" } Next
+        
+      .block
+        %h2 Staff picks
+        
+        .slider.staff-slider
+          .wrapper
+            .wrapper_roller
+              .slide
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .slide
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .nav
+            %a.prev{ :href => "#", :alt => "Prev" } Prev 
+            %a.next{ :href => "#", :alt => "Next" } Next
+        
+      .block
+        %h2 The buzz
+        .b_columns
+          .colmn.size3.i_first
+            %header
+              %a{ :href => "#" } @shoutfactory
+            %article
+              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+            %footer
+              24m ago
+              
+          .colmn.size3.i_last
+            %header
+              %a{ :href => "#" } @shoutfactory
+            %article
+              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+            %footer
+              24m ago
+              
+          .colmn.size3.i_item
+            %header
+              %a{ :href => "#" } @shoutfactory
+            %article
+              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+            %footer
+              24m ago
+           
+   
+  
+ 
