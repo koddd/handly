@@ -6,30 +6,30 @@
   %meta{:charset => 'utf-8'}
   %meta{:charset => Rails.application.config.encoding}
   = stylesheet_link_tag "style"
-%body
+%body  
   .main_group
     .header
       .header_logo
         Home page
-      .header_menu
-        .navigation
-          .icon-menu
-            .auth
-              %a{:href => "#", :class => "" } Login/Sign Up
-            %a{ :href => "#" }
-              %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
-          %h3 Shout factory
-          .searchbox
+      .navigation
+        .icon-menu
+          .auth
+            %a{:href => "#", :class => ""} Login/Sign Up
+          %a{:href => "#"}
+            %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
+        %h3 Shout factory
+        .searchbox
+          %form{:action => "#", :method => "get", :id => "search"}
             %input{:type => "text", :name => "search", :id => "searchbox", :placeholder => "SEARCH"}
-          %ul.menu_top
-            %li 
-              %a{:href => "#" } Television
-            %li
-              %a{:href => "#" } Film
-            %li
-              %a{:href => "#" } Kids
-            %li
-              %a{:href => "#" } Music
+        %ul.menu_top
+          %li 
+            %a{:href => "#" } Television
+          %li
+            %a{:href => "#" } Film
+          %li
+            %a{:href => "#" } Kids
+          %li
+            %a{:href => "#" } Music
 
       .slider.header-slider
         .wrapper
@@ -158,8 +158,8 @@
                   %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
               .slide
                 .digits 5
-                %a{ :href => "#", :alt => "" }
-                  %img { :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+                %a{:href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
           .nav
             %a.prev{ :href => "#", :alt => "Prev" } Prev 
             %a.next{ :href => "#", :alt => "Next" } Next
@@ -183,6 +183,8 @@
             %a.prev{ :href => "#", :alt => "Prev" } Prev 
             %a.next{ :href => "#", :alt => "Next" } Next
         
+      %button.btn_close 
+        %span ×
       .block
         %h2 The buzz
         .b_columns
@@ -210,6 +212,63 @@
             %footer
               24m ago
            
-   
+  .popupbody
   
+    .popup
+      %button.btn_close 
+        %span ×
+      .video.med{:style=>"width:540px;height:312px;"}
+        .play
+        %footer
+          %a{ :href => "#" } Add to Watch Later
+      .block
+        %ul.b_links
+          %li Share
+          %li 
+            %a{ :href => "#" } Facebook
+          %li
+            %a{ :href => "#" } Twitter
+          %li
+            %a{ :href => "#" } Email
+        %h2 Related Videos
+        
+        .b_video_columns
+          .colmn
+            .video.sm
+              .play
+          .colmn
+            .video.sm
+              .play
+          .colmn
+            .video.sm
+              .play
+        %ul.b_popup_bottomlinks
+          %li 
+            %a{:href => '#'} Tentpole
+          %li
+            %a{:href => '#'} Go to product
+      
+    %br/
+    %br/
+    %br/
+    %br/
+    
+    .popup
+      %button.btn_close 
+        %span ×
+      .slider.popup-slider
+        .wrapper
+          .wrapper_roller
+            .slide
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '540', :height => '430', :class => "im" }
+        .nav
+          %a.prev{ :href => "#", :alt => "Prev" } 
+            %img{:src => image_path('sprites/slide_arrow_b_prev.png'), :alt => '' } 
+          %a.next{ :href => "#", :alt => "Next" }
+            %img{:src => image_path('sprites/slide_arrow_b_next.png'), :alt => '' }
+
+
+
+
  
