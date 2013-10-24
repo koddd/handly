@@ -328,6 +328,13 @@ ul.menu_top {
   height:26px;
   position:relative;
   
+  &:before {
+    content: '×';
+    position: absolute;
+    left:0px;
+    top:-13px;
+  }
+  
   span {
     display:block;
     position:absolute;
@@ -342,6 +349,11 @@ ul.menu_top {
 .popupbody {
   background:#333;
   padding:100px;
+  position:relative;
+}
+.popupbody2 {
+  background:#ECECEC;
+  padding:0px;
   position:relative;
 }
 
@@ -464,3 +476,78 @@ ul.menu_top {
     }
   }
 }
+
+
+/* Menu Drop Down */
+
+.menu_dropdown {
+  position:relative;
+  
+  .btn_close {
+    position:absolute;
+    top:-55px;
+    left:auto;
+    right:55px;
+  }
+  
+  .menu_drop {
+    background:rgba(255, 255, 255, 0.1);
+    overflow:hidden;
+    position:relative;
+    padding-bottom:75px;
+    padding-top:55px;
+    height:400px;
+    
+    .wrapper {
+      z-index:1;
+      position:absolute;
+      left:49%;
+      right:0px;
+      // top:55px;
+    }
+    
+    .wrapper-list {
+      margin-left:-400px;
+    }
+    
+    ul {
+      overflow:hidden;
+      list-style-type:none;
+      margin:0px;
+      padding:0px;
+      padding-top:30px;
+      
+      li {
+        float:left;
+        width:200px;
+        position:relative;
+        
+        h3 {
+          position:absolute;
+          margin:0px;
+          top:-30px;
+          left:0px;
+        }
+        
+        ul {
+          padding-top:0px;
+          margin-left:0px;
+          
+          li {
+            float:none;
+            line-height:24px;
+            
+            a {
+              text-decoration:none;
+              
+              &:hover {
+                text-decoration:underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

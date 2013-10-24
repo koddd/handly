@@ -24497,3 +24497,3138 @@ Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 16:20:
 
 
 Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 16:20:34 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:04:50 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (140.6ms)
+Completed 500 Internal Server Error in 438ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %li and nested within it.):
+    216:     .menu_drop
+    217:       %ul
+    218:         %li menu
+    219:           %ul
+    220:             %li 
+    221:               %a{ :href => "#" }home
+    222:             %li 
+  app/views/welcome/index.html.haml:219
+
+
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (140.6ms)
+  Rendered h:/www/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (281.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:06:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 266ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:06:00 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:06:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:06:00 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:06:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:06:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:06:01 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:06:01 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:06:01 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:06:01 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:07:48 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 109ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:07:49 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:10:57 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (359.4ms)
+Completed 200 OK in 375ms (Views: 375.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:10:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:11:37 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 109ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:11:38 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:12:37 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (140.6ms)
+Completed 200 OK in 156ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:12:38 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:12:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:12:38 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:12:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:12:38 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:12:39 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:12:39 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:12:39 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:12:39 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:15:04 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (218.8ms)
+Completed 200 OK in 234ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:15:04 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:15:04 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:15:04 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:15:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:15:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:15:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:15:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:15:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:15:05 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:15:29 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:15:30 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:15:30 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:15:46 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (218.8ms)
+Completed 200 OK in 234ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:15:47 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 297ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:15:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:16:12 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:16:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:16:36 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:16:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:17:20 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:17:20 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:17:20 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:17:21 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:17:21 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:17:21 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:17:21 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:17:21 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:17:21 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:17:21 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:17:41 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (218.8ms)
+Completed 200 OK in 234ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:17:42 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:18:14 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:18:15 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:18:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (218.8ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:18:33 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:19:34 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:19:36 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:19:54 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:19:55 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:19:55 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:19:55 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:19:55 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:19:55 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:19:56 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:19:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:19:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:19:56 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:20:13 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:20:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:20:41 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:20:42 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:21:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:21:33 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:22:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (375.0ms)
+Completed 200 OK in 391ms (Views: 390.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:22:59 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:23:15 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 109ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:23:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:24:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (296.9ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:24:01 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:24:02 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:24:49 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:24:50 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:25:40 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:25:41 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:26:57 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (328.1ms)
+Completed 200 OK in 344ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:26:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:28:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:28:56 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:29:05 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:29:05 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:29:05 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:29:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:29:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:29:06 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:29:06 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:29:06 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:29:06 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:29:06 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:29:29 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:29:30 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:29:30 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:29:30 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:29:30 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:29:30 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:29:31 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:29:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:29:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:29:31 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:29:40 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (218.8ms)
+Completed 200 OK in 250ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:29:41 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:29:41 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:29:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:29:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:29:41 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:29:42 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:29:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:29:42 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:29:42 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:29:56 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 313ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:29:57 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:30:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:30:20 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:30:23 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:30:23 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:30:24 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:30:49 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:30:50 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:32:05 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:32:06 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:32:06 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:32:06 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:32:06 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:32:06 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:32:07 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:32:07 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:32:07 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:32:07 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:33:12 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:33:13 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:33:13 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:33:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:33:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:33:14 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:33:14 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:33:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:33:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:33:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:33:53 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:33:54 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:35:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:35:12 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:41:36 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (328.1ms)
+Completed 200 OK in 344ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:41:38 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:42:36 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (468.8ms)
+Completed 200 OK in 516ms (Views: 515.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:42:38 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:42:38 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:42:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:42:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:42:38 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:42:39 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:42:39 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:42:39 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:42:39 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:43:22 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (375.0ms)
+Completed 200 OK in 406ms (Views: 406.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:43:24 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:44:12 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (140.6ms)
+Completed 200 OK in 172ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:44:13 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:44:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:44:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:44:13 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:44:13 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:44:14 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:44:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:44:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:44:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:44:34 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (125.0ms)
+Completed 200 OK in 156ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:44:36 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:46:03 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (296.9ms)
+Completed 200 OK in 328ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:46:05 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:46:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (312.5ms)
+Completed 200 OK in 328ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:46:33 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:48:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (343.8ms)
+Completed 200 OK in 359ms (Views: 359.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:48:33 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:49:08 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (328.1ms)
+Completed 200 OK in 344ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:49:10 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:49:43 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (109.4ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:49:44 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:50:29 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:50:31 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:51:12 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 281ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:51:13 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:51:13 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:51:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:51:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:51:13 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:51:13 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:51:13 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:51:14 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:51:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:51:44 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:51:45 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:51:45 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:51:45 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:51:45 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:51:45 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:51:45 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:51:46 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:51:46 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:51:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:51:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:51:59 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:52:00 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:52:51 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:52:52 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:53:09 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (296.9ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:53:10 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:53:11 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:53:59 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:54:00 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 18:59:34 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 18:59:35 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 18:59:35 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 18:59:35 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 18:59:35 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 18:59:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 18:59:36 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 18:59:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 18:59:36 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 18:59:36 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:00:48 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (312.5ms)
+Completed 200 OK in 344ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:00:49 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:02:01 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:02:02 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:02:36 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:02:37 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:02:37 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:02:37 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:02:37 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:02:37 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:02:38 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:02:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:02:38 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:02:38 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:03:25 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:03:26 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:03:26 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:03:26 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:03:26 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:03:26 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:03:27 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:03:27 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:03:27 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:03:27 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:03:56 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (312.5ms)
+Completed 200 OK in 344ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:03:57 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:03:57 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:03:57 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:03:57 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:03:57 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:03:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:03:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:03:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:03:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:05:10 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:05:11 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:06:10 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (312.5ms)
+Completed 200 OK in 328ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:06:12 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:06:57 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:06:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:08:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (296.9ms)
+Completed 200 OK in 328ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:08:19 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:08:19 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:08:19 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:08:19 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:08:19 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:08:20 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:08:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:08:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:08:20 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:08:39 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:08:40 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:09:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:09:31 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:10:45 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (375.0ms)
+Completed 200 OK in 391ms (Views: 390.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:10:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:12:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:12:12 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:13:15 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (93.8ms)
+Completed 200 OK in 125ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:13:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:13:17 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:13:39 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:13:40 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:13:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:13:56 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:13:57 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:14:39 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (296.9ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:14:40 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:14:40 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:14:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:14:40 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:14:40 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:14:41 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:14:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:14:41 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:14:41 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:15:06 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:15:07 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:15:21 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:15:22 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:15:47 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (296.9ms)
+Completed 200 OK in 313ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:15:48 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:15:57 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:15:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:18:04 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (390.6ms)
+Completed 200 OK in 406ms (Views: 406.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:18:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:18:06 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:18:22 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:18:23 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:19:04 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:19:05 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:19:05 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:19:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:19:06 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:19:06 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:19:06 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:19:06 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:19:06 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:19:06 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:19:47 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (296.9ms)
+Completed 200 OK in 328ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:19:49 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:21:26 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:21:27 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:21:51 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:21:52 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:23:17 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:23:18 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:25:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:25:12 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:26:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (312.5ms)
+Completed 200 OK in 328ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:26:59 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:27:00 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:27:14 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (250.0ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:27:15 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:27:15 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:27:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:27:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:27:16 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:27:16 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:27:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:27:16 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:27:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:27:24 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (312.5ms)
+Completed 200 OK in 328ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:27:25 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:29:19 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (390.6ms)
+Completed 200 OK in 406ms (Views: 406.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:29:20 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:29:20 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:29:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:29:20 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:29:20 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:29:21 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:29:21 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:29:21 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:29:21 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:29:43 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (234.4ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:29:44 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:29:44 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:29:44 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:29:44 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:29:44 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:29:45 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:29:45 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:29:45 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:29:45 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:30:48 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:30:49 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:31:04 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (281.3ms)
+Completed 200 OK in 297ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:31:05 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:31:06 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:31:17 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (265.6ms)
+Completed 200 OK in 281ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:31:18 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:31:18 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-24 19:31:21 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_prev.png" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/sprites/icon_menu.png" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/x.svg" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_b_next.png" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/sprites/icon_play_m.png" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/sprites/icon_play_s.png" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_prev.png" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
+
+
+Started GET "/assets/sprites/slide_arrow_next.png" for 127.0.0.1 at 2013-10-24 19:31:22 +0300
