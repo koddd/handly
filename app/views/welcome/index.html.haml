@@ -1,11 +1,10 @@
 !!! 5
 %html{ html_attrs('ru') }
   %head
-  %title Мой блог
-  /%meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
-  %meta{:charset => 'utf-8'}
+  %title Gallery
   %meta{:charset => Rails.application.config.encoding}
   = stylesheet_link_tag "style"
+  %script{:type => "text/javascript"}
 %body  
   .main_group
     .header
@@ -30,6 +29,59 @@
             %a{:href => "#" } Kids
           %li
             %a{:href => "#" } Music
+      /* Menu DropDown */
+      .menu_dropdown
+        %button.btn_close{:onclick => "this.parentNode.remove();"}
+        .container
+          %ul#listmenu
+            %li
+              %h3 menu
+              %ul
+                %li 
+                  %a{ :href => "#" }home
+                %li 
+                  %a{ :href => "#" }television
+                %li 
+                  %a{ :href => "#" }film
+                %li
+                  %a{ :href => "#" }kids
+                %li
+                  %a{ :href => "#" }music
+            %li
+              %h3 company
+              %ul
+                %li
+                  %a{ :href => "#" }about us
+                %li
+                  %a{ :href => "#" }privacy policy
+                %li
+                  %a{ :href => "#" }terms &amp; conditions
+                %li
+                  %a{ :href => "#" }press
+                %li
+                  %a{ :href => "#" }faq
+                %li
+                  %a{ :href => "#" }contact
+            %li
+              %h3 connect
+              %ul
+                %li
+                  %a{ :href => "#" }facebook
+                %li
+                  %a{ :href => "#" }twitter
+                %li
+                  %a{ :href => "#" }youtube
+                %li
+                  %a{ :href => "#" }tumblr
+                %li
+                  %a{ :href => "#" }pinterest
+            %li
+              %ul
+                %li
+                  %a{ :href => "#" }Login
+                %li
+                  %a{ :href => "#" }sign-up
+
 
       .slider.header-slider
         .wrapper
@@ -211,59 +263,7 @@
             %footer
               24m ago
 
-  .popupbody2    
-    .menu_dropdown
-      %button.btn_close
-      .menu_drop
-        .wrapper
-          %ul.wrapper-list
-            %li
-              %h3 menu
-              %ul
-                %li 
-                  %a{ :href => "#" }home
-                %li 
-                  %a{ :href => "#" }television
-                %li 
-                  %a{ :href => "#" }film
-                %li
-                  %a{ :href => "#" }kids
-                %li
-                  %a{ :href => "#" }music
-            %li
-              %h3 company
-              %ul
-                %li
-                  %a{ :href => "#" }about us
-                %li
-                  %a{ :href => "#" }privacy policy
-                %li
-                  %a{ :href => "#" }terms &amp; conditions
-                %li
-                  %a{ :href => "#" }press
-                %li
-                  %a{ :href => "#" }faq
-                %li
-                  %a{ :href => "#" }contact
-            %li
-              %h3 connect
-              %ul
-                %li
-                  %a{ :href => "#" }facebook
-                %li
-                  %a{ :href => "#" }twitter
-                %li
-                  %a{ :href => "#" }youtube
-                %li
-                  %a{ :href => "#" }tumblr
-                %li
-                  %a{ :href => "#" }pinterest
-            %li
-              %ul
-                %li
-                  %a{ :href => "#" }Login
-                %li
-                  %a{ :href => "#" }sign-up
+
   
   .popupbody
     .popup
@@ -320,5 +320,5 @@
 
 
 
-
+  
  

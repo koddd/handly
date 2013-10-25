@@ -1,6 +1,6 @@
 /* Slider start */
 .slider {
-  position: relative;
+  position:relative;
   
   .wrapper {
     height:auto;
@@ -12,6 +12,7 @@
   }
   
   .nav {
+    
     a.prev, a.next {
       display: block;
       overflow: hidden;
@@ -21,7 +22,7 @@
       text-indent: -300px;
       background-color:#0f0;
       position: absolute;
-      z-index: 1;
+      z-index: 0;
       top: 50%;
       margin-top: -19px;
       
