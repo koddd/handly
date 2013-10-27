@@ -1,4 +1,4 @@
-
+/*
 *:focus {
   outline: none;
   -moz-outline-style: none;
@@ -92,18 +92,15 @@ input::-moz-focus-inner {
   height: 0;
 }
 .clearfix { display: inline-block; }
-/* start commented backslash hack \*/
+// start commented backslash hack
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-/* close commented backslash hack */
 
 img {
   border:0px;
 }
 
-
-
-
+*/
 
 .main_group {
   width:auto;
