@@ -2,31 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" name="Default" comment="">
-      <change type="DELETED" beforePath="H:\www\vhosts\www.handsome.local\testtask\app\assets\javascripts\images.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="H:\www\vhosts\www.handsome.local\testtask\app\assets\javascripts\welcome.js.coffee" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="DELETED" beforePath="H:\www\vhosts\www.handsome.local\testtask\app\views\layouts\___application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="H:\www\vhosts\www.handsome.local\testtask\app\views\layouts\___welcome.html.haml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/layout/_layout.scss" afterPath="$PROJECT_DIR$/app/assets/sass/layout/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_popups.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_popups.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" afterPath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.haml" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/style.scss" afterPath="$PROJECT_DIR$/app/assets/sass/style.scss" />
     </list>
     <ignored path="testtask.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382949112937" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382978389703" ignored="false" />
     <file path="/popups.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382952276296" ignored="false" />
-    <file path="/_popups.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382966130562" ignored="false" />
+    <file path="/_popups.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382988290203" ignored="false" />
     <file path="/index.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382976923703" ignored="false" />
     <file path="/Gemfile" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382955930093" ignored="false" />
     <file path="/bootstrap.js.coffee" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382954846812" ignored="false" />
     <file path="/application.js" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382956764859" ignored="false" />
-    <file path="/_layout.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382977902921" ignored="false" />
+    <file path="/_layout.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382984138890" ignored="false" />
     <file path="/style.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382963052062" ignored="false" />
     <file path="/_carousel.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382970689125" ignored="false" />
+    <file path="/application.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382987897406" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +42,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="234" selection-end="234" vertical-scroll-proportion="-6.5384617">
+            <state line="16" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.47058824">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="_popups.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_popups.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
@@ -73,10 +69,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="24" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.5388601">
+            <state line="299" column="85" selection-start="4249" selection-end="4249" vertical-scroll-proportion="-0.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="50" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +90,7 @@
       <file leaf-file-name="_carousel.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="21" selection-start="1055" selection-end="1071" vertical-scroll-proportion="-20.923077">
+            <state line="33" column="22" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-18.307692">
               <folding />
             </state>
           </provider>
@@ -127,15 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -159,16 +155,17 @@
         <option value="$PROJECT_DIR$/app/views/welcome/popups.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_popups.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/sass/style.scss" />
         <option value="$PROJECT_DIR$/app/views/welcome/_popups.html.haml" />
         <option value="$PROJECT_DIR$/app/views/welcome/_carousel.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/sass/layout/_layout.scss" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_popups.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -204,7 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,6 +297,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -510,7 +507,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25364667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -588,49 +585,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../testlar/spec/requests/static_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../testlar/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../testlar/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="481" selection-end="481" vertical-scroll-proportion="0.4117647">
-          <folding />
-        </state>
+        <state line="14" column="21" selection-start="481" selection-end="481" vertical-scroll-proportion="0.4117647" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
+        <state line="1" column="2" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.65384614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="46" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="10" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_popups.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="47" selection-end="47" vertical-scroll-proportion="0.029411765">
           <folding />
         </state>
       </provider>
@@ -649,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/_popups.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_popups-txt.html.haml.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="51" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
@@ -663,9 +631,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="234" selection-end="234" vertical-scroll-proportion="-6.5384617">
+        <state line="33" column="22" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-18.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="50" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="85" selection-start="4249" selection-end="4249" vertical-scroll-proportion="-0.92">
           <folding />
         </state>
       </provider>
@@ -677,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="21" selection-start="1055" selection-end="1071" vertical-scroll-proportion="-20.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="-8.5">
@@ -691,9 +666,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_layout.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/_popups.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="24" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.5388601">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_popups.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.47058824">
           <folding />
         </state>
       </provider>

@@ -306,6 +306,7 @@ ul.menu_top {
   padding:0px;
   margin-left:450px;
   margin-right:200px;
+  overflow: hidden;
   
   
   li {
@@ -313,6 +314,7 @@ ul.menu_top {
     margin:0px;
     padding:0px;
     display:inline-block;
+    float: left;
     
     a {
       display:inline-block;
