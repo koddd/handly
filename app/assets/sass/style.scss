@@ -3,6 +3,17 @@
 **/
 // @import "compass/reset";
 
+
+/* ====================== Twitter Bootstrap Styles ====================== */
+/* ====================================================================== */
+@import "twitter-bootstrap-static/bootstrap";
+@import "twitter-bootstrap-static/fontawesome";
+@import "twitter-bootstrap-static/sprites";
+/* ====================================================================== */
+/* =========================== Bootstrap End  =========================== */
+
+
+
 @import "variables/default_variables";
 @import "mixins/default_mixins";
 
