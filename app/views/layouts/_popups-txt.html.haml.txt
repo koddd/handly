@@ -1,0 +1,53 @@
+
+.popupbody
+  .popup
+    %button.btn_close
+    .video.med{:style=>"width:540px;height:312px;"}
+      .play
+      %footer
+        %a{ :href => "#" } Add to Watch Later
+    .block
+      %ul.b_links
+        %li Share
+        %li
+          %a{ :href => "#" } Facebook
+        %li
+          %a{ :href => "#" } Twitter
+        %li
+          %a{ :href => "#" } Email
+      %h2 Related Videos
+
+      .b_video_columns
+        .colmn
+          .video.sm
+            .play
+        .colmn
+          .video.sm
+            .play
+        .colmn
+          .video.sm
+            .play
+      %ul.b_popup_bottomlinks
+        %li
+          %a{:href => '#'} Tentpole
+        %li
+          %a{:href => '#'} Go to product
+
+  %br/
+  %br/
+  %br/
+  %br/
+
+  .popup
+    %button.btn_close
+    .slider.popup-slider
+      .wrapper
+        .wrapper_roller
+          .slide
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/x.svg', :alt => '', :width => '540', :height => '430', :class => "im" }
+      .nav
+        %a.prev{ :href => "#", :alt => "Prev" }
+          %img{:src => image_path('sprites/slide_arrow_b_prev.png'), :alt => '' }
+        %a.next{ :href => "#", :alt => "Next" }
+          %img{:src => image_path('sprites/slide_arrow_b_next.png'), :alt => '' }

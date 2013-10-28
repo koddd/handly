@@ -129,15 +129,15 @@ img {
     font-weight: bold;
     margin:0px;
     pading:0px;
-    padding-top:6px;
-    padding-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size: 17px;
     float:left;
   }
   
-  .icon-menu {
+  .icon_menu {
     display: block;
     text-align: right;
-    overflow: auto;
     width:160px;
     float:right;
     padding-top:4px;
@@ -163,10 +163,11 @@ img {
   }
   
   .auth {
+    margin-top: 3px;
     float: left;
     
     a {
-      padding:6px;
+      padding:0px;
     }
   }
   
@@ -174,6 +175,10 @@ img {
     width:$navigation-search-width;
     margin-left:30px;
     float:left;
+
+    form {
+      margin-bottom: 0px;
+    }
     
     input#searchbox {
       background-color:#50d3ea;
@@ -182,12 +187,17 @@ img {
       
       padding-top:9px;
       padding-bottom:9px;
+      margin-bottom: 0px;
       color:#FFF;
       border:none;
       border-radius:0px;
       width:$navigation-search-width - $navigation-search-padding*2;
       
       font-weight:bold;
+
+      &:focus {
+        box-shadow: none;
+      }
     }
   }
 }
@@ -205,7 +215,7 @@ img {
   
   h2 {
     color: #454545;
-    font-size: 18px;
+    font-size: 24px;
     text-transform:uppercase;
   }
   
@@ -233,9 +243,12 @@ img {
   }
   
   .b_columns {
-    overflow: auto;
-    
+
     .colmn {
+
+      &.span4 {
+        width: 349px;
+      }
       
       header {
         font-size: 14px;
@@ -270,6 +283,23 @@ img {
   }
 }
 
+
+.b_columns {
+  .span4 {
+    width: 349px;
+
+    header {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    footer {
+      font-size: 11px;
+      margin-top: 5px;
+    }
+  }
+}
 
 ul.menu_top {
   margin:0px;
@@ -314,35 +344,134 @@ ul.menu_top {
 }
 
 
-.btn_close {
+.modal {
+  width: 540px;
+  padding: 47px;
+
+  &.rolled {
+    position: absolute;
+  }
+
+  &.fade {
+    &.in {
+      top: 0%;
+    }
+  }
+
+  .modal-body {
+    padding: 0px;
+    max-height: 600px;
+    overflow-y: inherit;
+  }
+}
+
+button.close {
   padding:0px;
   background:none;
   border:none;
-  color:#333;
+  color:#444;
   font-size:44px;
   font-weight:bold;
   cursor:pointer;
+  opacity: 1;
   
-  width:26px;
-  height:26px;
-  position:relative;
+  width:22px;
+  height:22px;
+  position:absolute;
+  right: -35px;
+  top: -35px;
   
   &:before {
     content: '×';
     position: absolute;
-    left:0px;
-    top:-13px;
+    color:#444;
+    left:-2px;
+    top:2px;
   }
-  
-  span {
-    display:block;
-    position:absolute;
-    left:0px;
-    top:-13px;
+  &:hover, &:focus {
+    opacity: 1;
+
+    &:before {
+      color: #999;
+    }
   }
 }
 
 
+
+
+/** Carousel styles **/
+
+.carousel {
+  margin-bottom: 0px;
+  color: #444444;
+}
+
+.carousel-indicators {
+  z-index: 4;
+  right: 25px;
+  top: 20px;
+
+  li {
+    cursor: pointer;
+  }
+}
+
+.carousel-caption {
+  top: 70px;
+  left: 80px;
+  right: auto;
+  bottom: auto;
+  padding: 0px;
+  background: none;
+
+
+  h4 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .link-button {
+    &:hover {
+      text-decoration: none;
+      color: #FFF;
+    }
+  }
+}
+
+.carousel-control {
+  background: transparent;
+  border: none;
+  border-radius: 0px;
+  opacity: inherit;
+  color: #a8a8a8;
+  top: 50%;
+
+  &:hover, &:focus {
+    color: #A8A8A8;
+    opacity:inherit;
+  }
+
+  &.left {
+    left: -40px;
+  }
+  &.right {
+    right: -40px;
+  }
+}
+
+.carousel-inner {
+  .item {
+    img {
+      width: 100%;
+    }
+  }
+}
 
 
 .popupbody {
@@ -480,20 +609,21 @@ ul.menu_top {
 
 .menu_dropdown {
   position:absolute;
-  top:190px;
+  top:182px;
   left:0px;
   right:0px;
   width:100%;
-  z-index:1;
+  z-index:5;
+
   
-  .btn_close {
+  .close {
     position:absolute;
-    top:-55px;
     left:auto;
+    top:-50px;
     right:55px;
   }
   
-  .container {
+  .menu_container {
     height: 220px;
     padding-top:50px;
     padding-bottom:50px;
@@ -504,11 +634,10 @@ ul.menu_top {
     background:transparent;
     background:rgba(215, 215, 215 , 0.97);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#97d5d5d5,endColorstr=#97d5d5d5);
-    // background:#0F0;
     zoom: 1;
   }
   
-  #listmenu {
+  .listmenu {
     margin:0px;
     padding:0px;
     width:auto;
@@ -546,6 +675,8 @@ ul.menu_top {
         padding:0px;
         top:-30px;
         left:0px;
+        line-height: inherit;
+        font-size: 21px;
       }
       
       ul {

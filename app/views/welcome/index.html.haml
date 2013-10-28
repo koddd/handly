@@ -1,322 +1,255 @@
-!!! 5
-%html{ html_attrs('ru') }
-  %head
-  %title Gallery
-  %meta{:charset => Rails.application.config.encoding}
-  = stylesheet_link_tag "style"
-  %script{:type => "text/javascript"}
-%body  
-  .main_group
-    .header
-      .header_logo
-        Home page
-      .navigation
-        .icon-menu
-          .auth
-            %a{:href => "#", :class => ""} Login/Sign Up
-          %a{:href => "#"}
-            %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
-        %h3 Shout factory
-        .searchbox
-          %form{:action => "#", :method => "get", :id => "search"}
-            %input{:type => "text", :name => "search", :id => "searchbox", :placeholder => "SEARCH"}
-        %ul.menu_top
-          %li 
-            %a{:href => "#" } Television
-          %li
-            %a{:href => "#" } Film
-          %li
-            %a{:href => "#" } Kids
-          %li
-            %a{:href => "#" } Music
-      /* Menu DropDown */
-      .menu_dropdown
-        %button.btn_close{:onclick => "this.parentNode.remove();"}
-        .container
-          %ul#listmenu
-            %li
-              %h3 menu
-              %ul
-                %li 
-                  %a{ :href => "#" }home
-                %li 
-                  %a{ :href => "#" }television
-                %li 
-                  %a{ :href => "#" }film
-                %li
-                  %a{ :href => "#" }kids
-                %li
-                  %a{ :href => "#" }music
-            %li
-              %h3 company
-              %ul
-                %li
-                  %a{ :href => "#" }about us
-                %li
-                  %a{ :href => "#" }privacy policy
-                %li
-                  %a{ :href => "#" }terms &amp; conditions
-                %li
-                  %a{ :href => "#" }press
-                %li
-                  %a{ :href => "#" }faq
-                %li
-                  %a{ :href => "#" }contact
-            %li
-              %h3 connect
-              %ul
-                %li
-                  %a{ :href => "#" }facebook
-                %li
-                  %a{ :href => "#" }twitter
-                %li
-                  %a{ :href => "#" }youtube
-                %li
-                  %a{ :href => "#" }tumblr
-                %li
-                  %a{ :href => "#" }pinterest
-            %li
-              %ul
-                %li
-                  %a{ :href => "#" }Login
-                %li
-                  %a{ :href => "#" }sign-up
+= provide(:title, 'Home')
 
 
-      .slider.header-slider
+%header
+
+
+
+
+.main_group
+  .header
+    .header_logo
+      Home page
+    .navigation
+      .icon_menu
+        .auth
+          %a{:href => "#", :class => ""} Login/Sign Up
+        %a{:href => "#"}
+          %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
+      %h3 Shout factory
+      .searchbox
+        %form{:action => "#", :method => "get", :id => "search"}
+          %input{:type => "text", :name => "search", :id => "searchbox", :placeholder => "SEARCH"}
+      %ul.menu_top
+        %li
+          %a{:href => "#" } Television
+        %li
+          %a{:href => "#" } Film
+        %li
+          %a{:href => "#" } Kids
+        %li
+          %a{:href => "#" } Music
+    /* Menu DropDown */
+    .menu_dropdown
+      %button.close{:onclick => "this.parentNode.remove();"}
+      .menu_container
+        %ul.listmenu
+          %li
+            %h3 menu
+            %ul
+              %li
+                %a{ :href => "#" }home
+              %li
+                %a{ :href => "#" }television
+              %li
+                %a{ :href => "#" }film
+              %li
+                %a{ :href => "#" }kids
+              %li
+                %a{ :href => "#" }music
+          %li
+            %h3 company
+            %ul
+              %li
+                %a{ :href => "#" }about us
+              %li
+                %a{ :href => "#" }privacy policy
+              %li
+                %a{ :href => "#" }terms &amp; conditions
+              %li
+                %a{ :href => "#" }press
+              %li
+                %a{ :href => "#" }faq
+              %li
+                %a{ :href => "#" }contact
+          %li
+            %h3 connect
+            %ul
+              %li
+                %a{ :href => "#" }facebook
+              %li
+                %a{ :href => "#" }twitter
+              %li
+                %a{ :href => "#" }youtube
+              %li
+                %a{ :href => "#" }tumblr
+              %li
+                %a{ :href => "#" }pinterest
+          %li
+            %ul
+              %li
+                %a{ :href => "#" }Login
+              %li
+                %a{ :href => "#" }sign-up
+
+
+    = render('welcome/carousel')
+
+  .container
+    .row
+      %h2 Tentpole properties
+
+  .main
+    .block
+      %h2 Tentpole properties
+
+      .slider.logo-slider
         .wrapper
           .wrapper_roller
             .slide
-              %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%' }
-            
-              .info-text
-                %h2 Headline is here
-                %div
-                  %p Lorem ipsum dolor sit amet, consectetur adip<br>iscing elit. Donec nec pellentesque nisi,<br>ac mollis dui. Nullam eu sagittis lorem.<br>Maecenas sed tempus eros, nec gravida<br>tellus. Aliquam a odio purus.
-                %a.link-button{ :href => "#", :alt => "" } CTA
+              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+            .slide
+              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+            .slide
+              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+            .slide
+              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+            .slide
+              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+            .slide
+              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
+            .slide
+              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
         .nav
-          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
+          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
           %a.next{ :href => "#", :alt => "Next" } Next
 
-    .main  
-      .block
-        %h2 Tentpole properties
-        
-        .slider.logo-slider
-          .wrapper
-            .wrapper_roller
-              .slide
-                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-              .slide
-                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-              .slide
-                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-              .slide
-                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-              .slide
-                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-              .slide
-                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-              .slide
-                %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-          .nav
-            %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
-            %a.next{ :href => "#", :alt => "Next" } Next
-        
-      .block
-        %h2 Most popular
-        
-        .slider.twolines-slider
-          .wrapper
-            .wrapper_roller
-              .slide
-                .digits 1
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
-                .sub-slide
-                  .digits 2
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-                .sub-slide.row
-                  .digits 3
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-                .sub-slide
-                  .digits 4
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-                .sub-slide.row
-                  .digits 5
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-          .nav
-            %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
-            %a.next{ :href => "#", :alt => "Next" } Next
-                
-        
-      .block
-        %h2 New and upcoming releases
-        
-        .slider.twolines-slider
-          .wrapper
-            .wrapper_roller
-              .slide
-                .sub-slide
-                  .digits 2
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-                .sub-slide.row
-                  .digits 3
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-                .sub-slide
-                  .digits 4
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-                .sub-slide.row
-                  .digits 5
-                  %a{ :href => "#", :alt => "" }
-                    %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
-                .digits 1
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-          .nav
-            %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev 
-            %a.next{ :href => "#", :alt => "Next" } Next
-        
-      .block
-        %h2 Top tunes (most popular music)
-        
-        .slider.toptunes-slider
-          .wrapper
-            .wrapper_roller
-              .slide
-                .digits 1
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
+    .block
+      %h2 Most popular
+
+      .slider.twolines-slider
+        .wrapper
+          .wrapper_roller
+            .slide
+              .digits 1
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              .sub-slide
                 .digits 2
                 %a{ :href => "#", :alt => "" }
                   %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
+              .sub-slide.row
                 .digits 3
                 %a{ :href => "#", :alt => "" }
                   %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
+              .sub-slide
                 .digits 4
                 %a{ :href => "#", :alt => "" }
                   %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
+              .sub-slide.row
                 .digits 5
-                %a{:href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-          .nav
-            %a.prev{ :href => "#", :alt => "Prev" } Prev 
-            %a.next{ :href => "#", :alt => "Next" } Next
-        
-      .block
-        %h2 Staff picks
-        
-        .slider.staff-slider
-          .wrapper
-            .wrapper_roller
-              .slide
                 %a{ :href => "#", :alt => "" }
                   %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .slide
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-          .nav
-            %a.prev{ :href => "#", :alt => "Prev" } Prev 
-            %a.next{ :href => "#", :alt => "Next" } Next
-        
-      %button.btn_close
-      .block
-        %h2 The buzz
-        .b_columns
-          .colmn.size3.i_first
-            %header
-              %a{ :href => "#" } @shoutfactory
-            %article
-              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
-            %footer
-              24m ago
-              
-          .colmn.size3.i_last
-            %header
-              %a{ :href => "#" } @shoutfactory
-            %article
-              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
-            %footer
-              24m ago
-              
-          .colmn.size3.i_item
-            %header
-              %a{ :href => "#" } @shoutfactory
-            %article
-              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
-            %footer
-              24m ago
+        .nav
+          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
+          %a.next{ :href => "#", :alt => "Next" } Next
 
 
-  
-  .popupbody
-    .popup
-      %button.btn_close
-      .video.med{:style=>"width:540px;height:312px;"}
-        .play
-        %footer
-          %a{ :href => "#" } Add to Watch Later
-      .block
-        %ul.b_links
-          %li Share
-          %li 
-            %a{ :href => "#" } Facebook
-          %li
-            %a{ :href => "#" } Twitter
-          %li
-            %a{ :href => "#" } Email
-        %h2 Related Videos
-        
-        .b_video_columns
-          .colmn
-            .video.sm
-              .play
-          .colmn
-            .video.sm
-              .play
-          .colmn
-            .video.sm
-              .play
-        %ul.b_popup_bottomlinks
-          %li 
-            %a{:href => '#'} Tentpole
-          %li
-            %a{:href => '#'} Go to product
-      
-    %br/
-    %br/
-    %br/
-    %br/
-    
-    .popup
-      %button.btn_close
-      .slider.popup-slider
+    .block
+      %h2 New and upcoming releases
+
+      .slider.twolines-slider
+        .wrapper
+          .wrapper_roller
+            .slide
+              .sub-slide
+                .digits 2
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .sub-slide.row
+                .digits 3
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .sub-slide
+                .digits 4
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+              .sub-slide.row
+                .digits 5
+                %a{ :href => "#", :alt => "" }
+                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              .digits 1
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+        .nav
+          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
+          %a.next{ :href => "#", :alt => "Next" } Next
+
+    .block
+      %h2 Top tunes (most popular music)
+
+      .slider.toptunes-slider
+        .wrapper
+          .wrapper_roller
+            .slide
+              .digits 1
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              .digits 2
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              .digits 3
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              .digits 4
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              .digits 5
+              %a{:href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+        .nav
+          %a.prev{ :href => "#", :alt => "Prev" } Prev
+          %a.next{ :href => "#", :alt => "Next" } Next
+
+    .block
+      %h2 Staff picks
+
+      .slider.staff-slider
         .wrapper
           .wrapper_roller
             .slide
               %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '540', :height => '430', :class => "im" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .slide
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
         .nav
-          %a.prev{ :href => "#", :alt => "Prev" } 
-            %img{:src => image_path('sprites/slide_arrow_b_prev.png'), :alt => '' } 
-          %a.next{ :href => "#", :alt => "Next" }
-            %img{:src => image_path('sprites/slide_arrow_b_next.png'), :alt => '' }
+          %a.prev{ :href => "#", :alt => "Prev" } Prev
+          %a.next{ :href => "#", :alt => "Next" } Next
+
+    .block
+      %h2 The buzz
+      .row.b_columns
+        .span4
+          %header
+            %a{ :href => "#" } @shoutfactory
+          %article
+            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+          %footer
+            24m ago
+        .span4
+          %header
+            %a{ :href => "#" } @shoutfactory
+          %article
+            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+          %footer
+            24m ago
+        .span4
+          %header
+            %a{ :href => "#" } @shoutfactory
+          %article
+            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+          %footer
+            24m ago
 
 
 

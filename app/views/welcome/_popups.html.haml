@@ -1,0 +1,55 @@
+/ Button to trigger modal
+%a.btn{ :href => "#myModal", "role" => "button", "data-toggle" => "modal" } Launch demo modal
+%a.btn{ :href => "#myModal1", "role" => "button", "data-toggle" => "modal" } Launch demo modal 2
+
+/ Modal
+#myModal.modal.rolled.hide.fade{ "tabindex"=>"-1", "role" => "dialog", "aria-labelledby" => "myModalLabel", "aria-hidden" => true }
+  .modal-body
+    %button.close{ "data-dismiss" => "modal", "aria-hidden" => "true" }
+    .video.med{:style=>"width:540px;height:312px;"}
+      .play
+      %footer
+        %a{ :href => "#" } Add to Watch Later
+    .block
+      %ul.b_links
+        %li Share
+        %li
+          %a{ :href => "#" } Facebook
+        %li
+          %a{ :href => "#" } Twitter
+        %li
+          %a{ :href => "#" } Email
+      %h2 Related Videos
+
+      .b_video_columns
+        .colmn
+          .video.sm
+            .play
+        .colmn
+          .video.sm
+            .play
+        .colmn
+          .video.sm
+            .play
+      %ul.b_popup_bottomlinks
+        %li
+          %a{:href => '#'} Tentpole
+        %li
+          %a{:href => '#'} Go to product
+
+
+/ Modal 1
+#myModal1.modal.rolled.hide.fade{ "tabindex"=>"-1", "role" => "dialog", "aria-labelledby" => "myModalLabel", "aria-hidden" => true }
+  .modal-body
+    %button.close{ "data-dismiss" => "modal", "aria-hidden" => "true" }
+    .slider.popup-slider
+      .wrapper
+        .wrapper_roller
+          .slide
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/x.svg', :alt => '', :width => '540', :height => '430', :class => "im" }
+      .nav
+        %a.prev{ :href => "#", :alt => "Prev" }
+          %img{:src => image_path('sprites/slide_arrow_b_prev.png'), :alt => '' }
+        %a.next{ :href => "#", :alt => "Next" }
+          %img{:src => image_path('sprites/slide_arrow_b_next.png'), :alt => '' }
