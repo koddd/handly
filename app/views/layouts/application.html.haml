@@ -4,11 +4,15 @@
   %title=yield(:title)
   %meta{:charset => Rails.application.config.encoding}
   = stylesheet_link_tag "style"
+  %style{:type => ""}
+
   = javascript_include_tag "application"
   = render('layouts/shim')
 
 %body
   = yield
   = render('layouts/popups')
+
+  = stored_content
 
 

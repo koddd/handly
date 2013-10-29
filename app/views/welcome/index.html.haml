@@ -18,8 +18,8 @@
           %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
       %h3 Shout factory
       .searchbox
-        %form{:action => "#", :method => "get", :id => "search"}
-          %input{:type => "text", :name => "search", :id => "searchbox", :placeholder => "SEARCH"}
+        %form{:action => '#', :method => 'get', :id => 'search'}
+          %input{:type => 'text', :name => 'search', :id => 'searchbox', :placeholder => 'SEARCH'}
       %ul.menu_top
         %li
           %a{:href => "#" } Television
@@ -31,7 +31,7 @@
           %a{:href => "#" } Music
     /* Menu DropDown */
     .menu_dropdown
-      %button.close{:onclick => "this.parentNode.remove();"}
+      %button.close{:onclick => 'this.parentNode.remove();'}
       .menu_container
         %ul.listmenu
           %li
@@ -86,8 +86,21 @@
     = render('welcome/carousel')
 
   .container
-    .row
-      %h2 Tentpole properties
+    %h2 Tentpole properties
+    = render('welcome/carousel2')
+
+  .container
+    %h2 Most popular
+  .container
+    %h2 New and upcoming releases
+  .container
+    %h2 Top tunes (most popular music)
+  .container
+    %h2 Staff picks
+  .container
+    %h2 The buzz
+
+
 
   .main
     .block

@@ -51,3 +51,49 @@
           %img{:src => image_path('sprites/slide_arrow_b_prev.png'), :alt => '' }
         %a.next{ :href => "#", :alt => "Next" }
           %img{:src => image_path('sprites/slide_arrow_b_next.png'), :alt => '' }
+
+
+
+
+<!--
+        .item
+          .row
+            .span2
+              Property
+              %br/
+              Logo 2
+            .span2
+              Property
+              %br/
+              Logo 2
+            .span2
+              Property
+              %br/
+              Logo 2
+            .span2
+              Property
+              %br/
+              Logo 2
+            .span2
+              Property
+              %br/
+              Logo 2
+        .item
+          .row
+            .span2
+              Property
+              %br/
+              Logo 3
+            .span2
+              Property
+              %br/
+              Logo 3
+            .span2
+              Property
+              %br/
+              Logo 3
+            .span2
+              Property
+              %br/
+              Logo 3
+-->

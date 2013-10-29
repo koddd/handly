@@ -2,11 +2,11 @@
   $('.carousel').carousel({interval: 2000});
 
 
-#myCarousel.carousel.slide
+#header-carousel.carousel.slide
   %ol.carousel-indicators
-    %li{"data-target" => "#myCarousel", "data-slide-to" => "0", :class => "active"}
-    %li{"data-target" => "#myCarousel", "data-slide-to" => "1"}
-    %li{"data-target" => "#myCarousel", "data-slide-to" => "2"}
+    %li{"data-target" => "#header-carousel", "data-slide-to" => "0", :class => "active"}
+    %li{"data-target" => "#header-carousel", "data-slide-to" => "1"}
+    %li{"data-target" => "#header-carousel", "data-slide-to" => "2"}
   / Carousel items
   .carousel-inner
     .item.active
@@ -30,5 +30,5 @@
     %a.link-button{ :href => "#", :alt => "" } CTA
 
   / Carousel nav
-  %a.carousel-control.left{ :href=> "#myCarousel", "data-slide" => "prev" } &lsaquo;
-  %a.carousel-control.right{ :href=> "#myCarousel", "data-slide" => "next" } &rsaquo;
+  %a.carousel-control.left{ :href=> "#header-carousel", "data-slide" => "prev" } &lsaquo;
+  %a.carousel-control.right{ :href=> "#header-carousel", "data-slide" => "next" } &rsaquo;
