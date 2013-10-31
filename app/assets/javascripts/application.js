@@ -15,3 +15,56 @@
 #= require jquery_ujs
 #= require twitter/bootstrap
 //= require_tree .
+
+
+//= require_tree .
+var trash_links = function() {
+    var links_array = document.getElementsByTagName("a");
+    for(var i=0; i < links_array.length; i++) {
+        if( /^#$/.test(links_array[i].getAttribute("href")) ) {
+            if (links_array[i].addEventListener) {
+                links_array[i].addEventListener("click", function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                });
+            } else {
+                links_array[i].attachEvent('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                });
+            }
+        }
+    }
+}
+
+if (window.addEventListener) {
+    window.addEventListener("load", trash_links);
+} else {
+    window.attachEvent('load', trash_links);
+}
+
+
+$(document).ready(function() {
+    $('.menu_dropdown').css({ "display" : "none" });
+    $("#menu").click(function() {
+        if($('.menu_dropdown').is(":visible")) {
+            $('.menu_dropdown').css({ "display" : "none" });
+        } else if($('.menu_dropdown').is(":hidden")) {
+            $('.menu_dropdown').css({ "display" : "block" });
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+

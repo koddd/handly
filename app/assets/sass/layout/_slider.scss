@@ -47,6 +47,12 @@
     overflow: hidden;
     position: relative;
     float: left;
+
+    a {
+      img {
+        height: 100%;
+      }
+    }
     
     .info-text {
       position: absolute;
@@ -93,6 +99,10 @@
         clear: right;
         margin-left:20px;
       }
+
+      img {
+        height: 100%;
+      }
     }
     
     .im {
@@ -121,10 +131,16 @@
   
   .wrapper {
     height: 175px;
+
+    .wrapper_roller {
+      width: 102%;
+      margin-left: -2%;
+    }
   }
   
   .slide {
-    width: 315px;
+    width: 32%;
+    margin-left: 2%;
     height: 175px;
   }  
 }
@@ -156,27 +172,41 @@
   
   .wrapper {
     height: 175px;
+
+    .wrapper_roller {
+      width: 102%;
+      margin-left: -2%;
+    }
   }
   
   .slide {
-    width: 231px;
+    width: 18%;
+    margin-left: 2%;
     height: 175px;
+
+    &:first-child {
+      margin-left: 2%;
+    }
   }
 }
 
 
 .twolines-slider {
-  
+
   .wrapper {
     height: 260px;
+
+    .wrapper_roller {
+      width: 102%;
+    }
   }  
   .slide {
-    width: 480px;
+    width: 48%;
     height: 260px;
-    margin-left: 20px;
+    margin-left: 2%;
     
     .sub-slide {
-      width: 230px;
+      width: 48%;
       height: 120px;
     }
   }
@@ -204,14 +234,62 @@
     }
     a.prev {
       left:0px;
-      background:rgba(255,255,255, 0.5); //  url(image_path('sprites/slide_arrow_prev.png')) no-repeat 27px 29px
+      background:rgba(255,255,255, 0.5);
       text-indent:0px;
     }
     a.next {
       right:0px;
-      background:rgba(255,255,255, 0.5); //  url(image_path('sprites/slide_arrow_next.png')) no-repeat 27px 29px
+      background:rgba(255,255,255, 0.5);
       text-indent:0px;
     }
   }
 }
 
+#popup-carousel {
+  .carousel-control {
+    padding: 0px;
+
+    width: 66px;
+    height: 84px;
+    display: block;
+
+    background:none;
+    margin-top:-42px;
+    overflow: hidden;
+    outline: 0;
+
+    &:before {
+      display:block;
+      position: absolute;
+      content: "‹";
+      left: 25px;
+      top: 20px;
+      color: #333;
+      opacity: 1;
+      z-index: 2;
+    }
+
+    span {
+      width: 66px;
+      height: 84px;
+      display: block;
+      background: #FFF;
+      opacity: 0.5;
+    }
+
+    &.left {
+      left:0px;
+
+      &:before {
+        content: "‹";
+      }
+    }
+    &.right {
+      right:0px;
+
+      &:before {
+        content: "›";
+      }
+    }
+  }
+}

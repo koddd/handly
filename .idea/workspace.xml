@@ -2,30 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/_carousel.html.haml" afterPath="$PROJECT_DIR$/app/views/welcome/_carousel.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/layout/_layout.scss" afterPath="$PROJECT_DIR$/app/assets/sass/layout/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_popups-txt.html.haml.txt" afterPath="$PROJECT_DIR$/app/views/layouts/_popups-txt.html.haml.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/_popups.html.haml" afterPath="$PROJECT_DIR$/app/views/welcome/_popups.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/layout/_slider.scss" afterPath="$PROJECT_DIR$/app/assets/sass/layout/_slider.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" afterPath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.haml" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/style.scss" afterPath="$PROJECT_DIR$/app/assets/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testtask.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382978389703" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383207542984" ignored="false" />
     <file path="/popups.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382952276296" ignored="false" />
-    <file path="/_popups.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382988290203" ignored="false" />
-    <file path="/index.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383050812859" ignored="false" />
+    <file path="/_popups.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383215798515" ignored="false" />
+    <file path="/index.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383217804078" ignored="false" />
     <file path="/Gemfile" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382955930093" ignored="false" />
     <file path="/bootstrap.js.coffee" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382954846812" ignored="false" />
-    <file path="/application.js" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382956764859" ignored="false" />
-    <file path="/_layout.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383048937546" ignored="false" />
+    <file path="/application.js" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383218269625" ignored="false" />
+    <file path="/_layout.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383233783093" ignored="false" />
     <file path="/style.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1382963052062" ignored="false" />
     <file path="/_carousel.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383043861031" ignored="false" />
     <file path="/application.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383050337062" ignored="false" />
@@ -35,6 +28,7 @@
     <file path="/_carousel2.html.haml" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383062002031" ignored="false" />
     <file path="/_elastislide.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383062275640" ignored="false" />
     <file path="/jquery.elastislide.js" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383062480078" ignored="false" />
+    <file path="/_slider.scss" changelist="9c3fe50b-0e8c-447a-97ff-54280e5e68e5" time="1383229680468" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_layout.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="765" column="25" selection-start="10967" selection-end="10967" vertical-scroll-proportion="0.0">
+            <state line="211" column="52" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.42218542">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="9" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,7 +69,7 @@
       <file leaf-file-name="index3.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://H:/temp/Elastislide/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="45" selection-start="3138" selection-end="3138" vertical-scroll-proportion="-30.73077">
+            <state line="47" column="45" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +78,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="117" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +87,7 @@
       <file leaf-file-name="_slider.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.68">
+            <state line="141" column="11" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,46 +96,8 @@
       <file leaf-file-name="_carousel2.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel2.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="33" selection-start="1689" selection-end="1689" vertical-scroll-proportion="-45.76923">
+            <state line="103" column="33" selection-start="1689" selection-end="1689" vertical-scroll-proportion="-12.423077">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elastislide.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/elastislide.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="32" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_elastislide.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_elastislide.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="45" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.elastislide.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/jquery.elastislide.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="543" column="29" selection-start="13961" selection-end="13961" vertical-scroll-proportion="14.756345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.elastislide.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://H:/temp/Elastislide/js/jquery.elastislide.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="399" column="16" selection-start="10422" selection-end="10422" vertical-scroll-proportion="-8.2">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -140,7 +105,25 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="32" selection-start="2161" selection-end="2161" vertical-scroll-proportion="-1.9615384">
+            <state line="224" column="0" selection-start="8200" selection-end="8200" vertical-scroll-proportion="-15.192307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_carousel.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="26" selection-start="1092" selection-end="1096" vertical-scroll-proportion="-20.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_popups.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/_popups.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="34" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-32.03846">
               <folding />
             </state>
           </provider>
@@ -164,22 +147,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/welcome/_popups.html.haml" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_popups.html.haml" />
         <option value="$PROJECT_DIR$/app/views/welcome/_carousel.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_popups-txt.html.haml.txt" />
-        <option value="$PROJECT_DIR$/app/assets/sass/layout/_layout.scss" />
         <option value="$PROJECT_DIR$/app/assets/sass/style.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="H:/temp/Elastislide/css/elastislide.css" />
         <option value="H:/temp/Elastislide/index3.html" />
         <option value="H:/temp/Elastislide/js/jquery.elastislide.js" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/welcome/_carousel2.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/sass/layout/_elastislide.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/js/jquery.elastislide.js" />
+        <option value="$PROJECT_DIR$/app/views/welcome/_popups.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/sass/layout/_slider.scss" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/sass/layout/_layout.scss" />
       </list>
     </option>
   </component>
@@ -215,6 +198,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,8 +296,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,6 +392,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -514,14 +504,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="774" extended-state="7" />
+    <frame x="-4" y="-4" width="1288" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -597,46 +587,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/_popups.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_popups-txt.html.haml.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="20" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="54" selection-start="1053" selection-end="1250" vertical-scroll-proportion="0.029411765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="50" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="240" selection-end="240" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
+        <state line="9" column="26" selection-start="240" selection-end="240" vertical-scroll-proportion="-5.8846154" />
       </provider>
     </entry>
     <entry file="file://H:/temp/Elastislide/css/elastislide.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="4" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.36092716">
-          <folding />
-        </state>
+        <state line="91" column="4" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.36092716" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/elastislide.css">
@@ -646,67 +609,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="117" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://H:/temp/Elastislide/index3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="45" selection-start="3138" selection-end="3138" vertical-scroll-proportion="-30.73077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/temp/Elastislide/js/jquery.elastislide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="399" column="16" selection-start="10422" selection-end="10422" vertical-scroll-proportion="-8.2">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="32" selection-start="2161" selection-end="2161" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="765" column="25" selection-start="10967" selection-end="10967" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel2.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="33" selection-start="1689" selection-end="1689" vertical-scroll-proportion="-45.76923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_elastislide.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="45" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+        <state line="47" column="45" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/jquery.elastislide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="543" column="29" selection-start="13961" selection-end="13961" vertical-scroll-proportion="14.756345">
+        <state line="332" column="25" selection-start="8623" selection-end="8627" vertical-scroll-proportion="0.5752961">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/temp/Elastislide/js/jquery.elastislide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="399" column="16" selection-start="10422" selection-end="10422" vertical-scroll-proportion="0.028764805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_elastislide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="45" selection-start="579" selection-end="579" vertical-scroll-proportion="1.1539735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel2.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="33" selection-start="1689" selection-end="1689" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/_popups.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="34" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-32.03846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="9" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="26" selection-start="1092" selection-end="1096" vertical-scroll-proportion="-20.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="11" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="0" selection-start="8200" selection-end="8200" vertical-scroll-proportion="-15.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="52" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.42218542">
           <folding />
         </state>
       </provider>

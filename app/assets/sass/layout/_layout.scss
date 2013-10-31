@@ -102,6 +102,10 @@ img {
 
 */
 
+* a, a:focus {
+  outline: 0;
+}
+
 .main_group {
   width:auto;
   min-width:980px;
@@ -122,6 +126,7 @@ img {
   padding:30px;
   position:relative;
   background:$navigation-background;
+  overflow: hidden;
   
   h3 {
     color:#2ca8c4;
@@ -198,7 +203,14 @@ img {
       &:focus {
         box-shadow: none;
       }
+
     }
+
+    input#searchbox::-moz-placeholder { color:#FFF; }
+    input#searchbox::-webkit-input-placeholder { color:#FFF; }
+    input#searchbox:-ms-input-placeholder { color:#FFF; }
+    input#searchbox:-moz-placeholder { color:#FFF; }
+
   }
 }
 
@@ -221,6 +233,7 @@ img {
   
   ul.b_links {
     margin:0px;
+    margin-top: 10px;
     float:right;
     
     li {
@@ -285,8 +298,16 @@ img {
 
 
 .b_columns {
+  width: 100%;
+  margin-left: 0%;
+
   .span4 {
-    width: 349px;
+    width: 32%;
+    margin-left: 2%;
+
+    &:first-child {
+      margin-left: 0%;
+    }
 
     header {
       font-size: 14px;
@@ -304,10 +325,9 @@ img {
 ul.menu_top {
   margin:0px;
   padding:0px;
-  margin-left:450px;
-  margin-right:200px;
+  left:450px;
+  position: absolute;
   overflow: hidden;
-  
   
   li {
     list-style-type:none;
@@ -474,6 +494,8 @@ button.close {
     }
   }
 }
+
+/** Carousel styles end **/
 
 
 .popupbody {
