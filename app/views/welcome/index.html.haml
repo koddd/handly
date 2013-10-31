@@ -14,7 +14,7 @@
       .icon_menu
         .auth
           %a{:href => "#", :class => ""} Login/Sign Up
-        %a{:href => "#"}
+        %a#menu{:href => "#"}
           %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
       %h3 Shout factory
       .searchbox
@@ -31,7 +31,7 @@
           %a{:href => "#" } Music
     /* Menu DropDown */
     .menu_dropdown
-      %button.close{:onclick => 'this.parentNode.remove();'}
+      %button.close
       .menu_container
         %ul.listmenu
           %li
@@ -91,178 +91,137 @@
 
   .container
     %h2 Most popular
-  .container
-    %h2 New and upcoming releases
-  .container
-    %h2 Top tunes (most popular music)
-  .container
-    %h2 Staff picks
-  .container
-    %h2 The buzz
-
-
-
-  .main
-    .block
-      %h2 Tentpole properties
-
-      .slider.logo-slider
-        .wrapper
-          .wrapper_roller
-            .slide
-              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-            .slide
-              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-            .slide
-              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-            .slide
-              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-            .slide
-              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-            .slide
-              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-            .slide
-              %a{ :href => "#", :alt => "", :class => "logo" } Property Logo
-        .nav
-          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
-          %a.next{ :href => "#", :alt => "Next" } Next
-
-    .block
-      %h2 Most popular
-
-      .slider.twolines-slider
-        .wrapper
-          .wrapper_roller
-            .slide
-              .digits 1
-              %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
-              .sub-slide
-                .digits 2
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .sub-slide.row
-                .digits 3
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .sub-slide
-                .digits 4
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .sub-slide.row
-                .digits 5
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-        .nav
-          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
-          %a.next{ :href => "#", :alt => "Next" } Next
-
-
-    .block
-      %h2 New and upcoming releases
-
-      .slider.twolines-slider
-        .wrapper
-          .wrapper_roller
-            .slide
-              .sub-slide
-                .digits 2
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .sub-slide.row
-                .digits 3
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .sub-slide
-                .digits 4
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-              .sub-slide.row
-                .digits 5
-                %a{ :href => "#", :alt => "" }
-                  %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
-              .digits 1
-              %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-        .nav
-          %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
-          %a.next{ :href => "#", :alt => "Next" } Next
-
-    .block
-      %h2 Top tunes (most popular music)
-
-      .slider.toptunes-slider
-        .wrapper
-          .wrapper_roller
-            .slide
-              .digits 1
-              %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
+    .slider.twolines-slider
+      .wrapper
+        .wrapper_roller
+          .slide
+            .digits 1
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            .sub-slide
               .digits 2
               %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .sub-slide.row
               .digits 3
               %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .sub-slide
               .digits 4
               %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .sub-slide.row
               .digits 5
-              %a{:href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-        .nav
-          %a.prev{ :href => "#", :alt => "Prev" } Prev
-          %a.next{ :href => "#", :alt => "Next" } Next
-
-    .block
-      %h2 Staff picks
-
-      .slider.staff-slider
-        .wrapper
-          .wrapper_roller
-            .slide
               %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
-              %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-            .slide
-              %a{ :href => "#", :alt => "" }
-                %img{ :src => '/assets/x.svg', :alt => '', :width => '100%', :height => '100%', :class => "im" }
-        .nav
-          %a.prev{ :href => "#", :alt => "Prev" } Prev
-          %a.next{ :href => "#", :alt => "Next" } Next
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+      .nav
+        %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
+        %a.next{ :href => "#", :alt => "Next" } Next
 
-    .block
-      %h2 The buzz
-      .row.b_columns
-        .span4
-          %header
-            %a{ :href => "#" } @shoutfactory
-          %article
-            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
-          %footer
-            24m ago
-        .span4
-          %header
-            %a{ :href => "#" } @shoutfactory
-          %article
-            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
-          %footer
-            24m ago
-        .span4
-          %header
-            %a{ :href => "#" } @shoutfactory
-          %article
-            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
-          %footer
-            24m ago
+  .container
+    %h2 New and upcoming releases
+    .slider.twolines-slider
+      .wrapper
+        .wrapper_roller
+          .slide
+            .sub-slide
+              .digits 2
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .sub-slide.row
+              .digits 3
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .sub-slide
+              .digits 4
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+            .sub-slide.row
+              .digits 5
+              %a{ :href => "#", :alt => "" }
+                %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            .digits 1
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+      .nav
+        %a.prev.disabled{ :href => "#", :alt => "Prev" } Prev
+        %a.next{ :href => "#", :alt => "Next" } Next
+
+  .container
+    %h2 Top tunes (most popular music)
+    .slider.toptunes-slider
+      .wrapper
+        .wrapper_roller
+          .slide
+            .digits 1
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            .digits 2
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            .digits 3
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            .digits 4
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            .digits 5
+            %a{:href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+      .nav
+        %a.prev{ :href => "#", :alt => "Prev" } Prev
+        %a.next{ :href => "#", :alt => "Next" } Next
+
+  .container
+    %h2 Staff picks
+    .slider.staff-slider
+      .wrapper
+        .wrapper_roller
+          .slide
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+          .slide
+            %a{ :href => "#", :alt => "" }
+              %img{ :src => '/assets/images/slider_img_540x430.png', :alt => '', :width => '100%', :height => '100%', :class => "im" }
+      .nav
+        %a.prev{ :href => "#", :alt => "Prev" } Prev
+        %a.next{ :href => "#", :alt => "Next" } Next
+  .container
+    %h2 The buzz
+    .row.b_columns
+      .span4
+        %header
+          %a{ :href => "#" } @shoutfactory
+        %article
+          Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+        %footer
+          24m ago
+      .span4
+        %header
+          %a{ :href => "#" } @shoutfactory
+        %article
+          Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+        %footer
+          24m ago
+      .span4
+        %header
+          %a{ :href => "#" } @shoutfactory
+        %article
+          Lorem ipsum dolor sit amet, consectetur adip iscing elit. Donec nec pellentesque nisi, ac mollis dui. Nullam eu sagittis lorem. Maecenas sed tempus eros, nec gravida tellus. Aliquam a odio purus.
+        %footer
+          24m ago
+
+
+
 
 
 

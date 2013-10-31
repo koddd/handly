@@ -42,14 +42,24 @@
 #myModal1.modal.rolled.hide.fade{ "tabindex"=>"-1", "role" => "dialog", "aria-labelledby" => "myModalLabel", "aria-hidden" => true }
   .modal-body
     %button.close{ "data-dismiss" => "modal", "aria-hidden" => "true" }
-    .slider.popup-slider
-      .wrapper
-        .wrapper_roller
-          .slide
-            %a{ :href => "#", :alt => "" }
-              %img{ :src => '/assets/x.svg', :alt => '', :width => '540', :height => '430', :class => "im" }
-      .nav
-        %a.prev{ :href => "#", :alt => "Prev" }
-          %img{:src => image_path('sprites/slide_arrow_b_prev.png'), :alt => '' }
-        %a.next{ :href => "#", :alt => "Next" }
-          %img{:src => image_path('sprites/slide_arrow_b_next.png'), :alt => '' }
+
+
+    %script{:type => "text/javascript"}
+      $('#popup-carousel').carousel({interval: 2000});
+
+    #popup-carousel.carousel.slide
+      / Carousel items
+      .carousel-inner
+        .item.active
+          %img{ :src => "/assets/images/slider_img_540x430.png", :alt => "" }
+        .item
+          %img{ :src => "/assets/images/slider_img_540x430.png", :alt => "" }
+        .item
+          %img{ :src => "/assets/images/slider_img_540x430.png", :alt => "" }
+
+      / Carousel nav
+      %a.carousel-control.left{ :href=> "#popup-carousel", "data-slide" => "prev" }
+        %span
+      %a.carousel-control.right{ :href=> "#popup-carousel", "data-slide" => "next" }
+        %span
+
