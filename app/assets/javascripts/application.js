@@ -48,7 +48,7 @@ if (window.addEventListener) {
 
 $(document).ready(function() {
     $('.menu_dropdown').css({ "display" : "none" });
-    $("#menu").click(function() {
+    $("#menu, .menu_dropdown button").click(function() {
         if($('.menu_dropdown').is(":visible")) {
             $('.menu_dropdown').css({ "display" : "none" });
         } else if($('.menu_dropdown').is(":hidden")) {
