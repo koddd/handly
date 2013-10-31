@@ -648,14 +648,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/style.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+        <state line="15" column="5" selection-start="293" selection-end="293" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/layout/_slider.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/_carousel.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="212" column="19" selection-start="3009" selection-end="3009" vertical-scroll-proportion="0.0">
           <folding />
@@ -669,7 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="19" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
           <folding />
