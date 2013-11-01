@@ -1,0 +1,319 @@
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  body {
+    background: #00FF00;
+    &:before {
+      display: block;
+      content: "1200px";
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    background: #f6ff0d;
+    &:before {
+      display: block;
+      content: "768px => 979px";
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    background: #ff4f54;
+    margin: 0px;
+    padding: 0px;
+
+    &:before {
+      display: block;
+      content: "to 767px";
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+  }
+
+  .navigation {
+    padding: 10px;
+  }
+
+  .main_group {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: inherit;
+    max-width: inherit;
+  }
+
+  .header {
+
+  }
+
+  .container {
+    h2 {
+      font-size: 20px;
+      line-height: auto;
+    }
+  }
+
+  .carousel.slide {
+    .carousel-caption {
+      left: 50px;
+      top: 50px;
+    }
+
+    .carousel-control {
+      &.left {
+        left: 0px;
+      }
+      &.right {
+        right: 0px;
+      }
+    }
+  }
+
+  .slider {
+    .nav {
+      a.prev {
+        left: 10px;
+      }
+      a.next {
+        right: 10px;
+      }
+    }
+  }
+
+  .elastislide-wrapper {
+    nav {
+      span {
+        &.elastislide-next {
+          right: 20px;
+        }
+        &.elastislide-prev {
+          left: 20px;
+        }
+      }
+    }
+  }
+
+  .popupbody {
+    display: block;
+  }
+
+  .b_columns {
+    .span4 {
+      float: left;
+    }
+  }
+}
+
+/* Landscape phones and down */
+// @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (max-width: 480px) {
+  body {
+    background: #8730ff;
+    margin: 0px;
+    padding: 0px;
+
+    &:before {
+      display: block;
+      content: "Landscape phones and down 480px";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+  .navigation {
+    padding: 0px;
+    height: auto;
+
+    .wrapper {
+      padding: 10px;
+    }
+
+    h3 {
+      float: none;
+      padding-left: 10px;
+    }
+
+    .searchbox {
+      margin-left: 0px;
+      float: none;
+      width: auto;
+      padding-left: 10px;
+
+      input#searchbox {
+        width: 80%;
+      }
+    }
+
+    .icon_menu {
+      float: none;
+      width: auto;
+      position: static;
+      padding: 20px 10px;
+    }
+
+    .menu_top {
+      position: static;
+      margin-top: 30px;
+
+      li {
+        float: none;
+        display: block;
+        margin-bottom: 1px;
+
+        a {
+          display: block;
+          background: #CCCCCC;
+
+          &:hover {
+            background: #ECECEC;
+          }
+        }
+      }
+    }
+  }
+
+  .main_group {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: inherit;
+    max-width: inherit;
+  }
+
+  .carousel.slide {
+    .carousel-indicators {
+      display: none;
+    }
+
+    .carousel-control {
+      display: none;
+
+      &.left {
+        top: 25%;
+      }
+      &.right {
+        top: 25%;
+      }
+    }
+
+    .carousel-caption {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      padding: 10px;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      background: rgba(0, 0, 0, 0.6);
+      width: auto;
+
+      h4 {
+        font-size: 24px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+
+  .menu_dropdown {
+    position: static;
+
+    .close {
+      display: none;
+    }
+
+    .menu_container {
+      height: auto;
+      padding: 10px;
+    }
+
+    .listmenu {
+      float: none;
+      position: static;
+      right: auto;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      display: block;
+
+      li {
+        float: none;
+        left: 0px;
+        position: static;
+        margin-left: 0px;
+        display: block;
+        width: 100%;
+
+        h3 {
+          position: static;
+          margin-bottom: 10px;
+          font-size: 16px;
+        }
+
+        ul {
+          position: static;
+          display: block;
+          margin-bottom: 15px;
+
+          li {
+            margin-bottom: 1px;
+            width: 100%;
+
+            a {
+              display: block;
+              background-color: #ECECEC;
+              padding: 10px;
+              text-decoration: none;
+
+              &:hover {
+                background: #f5f5f5;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .b_columns {
+
+
+    .span4 {
+      float: none;
+      width: auto;
+      margin-left: 0px;
+      padding-top: 20px;
+
+      &:first-child {
+        padding-top: 0px;
+      }
+    }
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+  }
+
+  .twolines-slider {
+    .slide {
+      width: 100%;
+    }
+  }
+
+}

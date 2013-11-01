@@ -1,7 +1,15 @@
 
 
+body {
+  position: relative;
+}
+
 * a, a:focus {
   outline: 0;
+}
+
+.greed {
+  background: url(image_path('images/greed_devices.png')) repeat-y left top;
 }
 
 .main_group {
@@ -20,11 +28,40 @@
 
 
 /* Navigation Block */
+
+
+
 .navigation {
+  position: relative;
+  padding: 0px;
+
   padding:30px;
-  position:relative;
   background:$navigation-background;
-  overflow: hidden;
+  height: 38px;
+  // overflow: hidden;
+
+  // .wrapper {}
+
+  .icon_menu {
+    display: block;
+    text-align: right;
+    width:160px;
+    float: right;
+    padding-top:7px;
+
+    a {
+      padding:0px;
+    }
+
+    .auth {
+      margin-top: 3px;
+      float: left;
+
+      a {
+        padding:0px;
+      }
+    }
+  }
   
   h3 {
     color:#2ca8c4;
@@ -36,18 +73,6 @@
     padding-bottom:0px;
     font-size: 17px;
     float:left;
-  }
-  
-  .icon_menu {
-    display: block;
-    text-align: right;
-    width:160px;
-    float:right;
-    padding-top:4px;
-    
-    a {
-      padding:0px;
-    }
   }
   
   a {
@@ -65,14 +90,7 @@
     }
   }
   
-  .auth {
-    margin-top: 3px;
-    float: left;
-    
-    a {
-      padding:0px;
-    }
-  }
+
   
   .searchbox {
     width:$navigation-search-width;
@@ -326,8 +344,9 @@ button.close {
 .popupbody {
   background:#333;
   height: 600px;
-  padding:100px;
+  padding-top:60px;
   position:relative;
+  text-align: center;
 }
 .popupbody2 {
   padding:0px;
@@ -459,10 +478,10 @@ button.close {
 
 .menu_dropdown {
   position:absolute;
-  top:182px;
-  left:0px;
-  right:0px;
-  width:100%;
+  top:98px;
+  left:-7%;
+  right:-7%;
+  width:auto;
   z-index:5;
 
   

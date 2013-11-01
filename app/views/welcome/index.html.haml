@@ -1,21 +1,74 @@
 = provide(:title, 'Home')
 
 
-%header
-
-
-
 
 .main_group
   .header
     .header_logo
       Home page
+
+
+
     .navigation
       .icon_menu
         .auth
           %a{:href => "#", :class => ""} Login/Sign Up
         %a#menu{:href => "#"}
           %img{:src => '/assets/sprites/icon_menu.png' , :alt => ''}
+
+      /* Menu DropDown */
+      .menu_dropdown
+        %button.close
+        .menu_container
+          %ul.listmenu
+            %li
+              %h3 menu
+              %ul
+                %li
+                  %a{ :href => "#" }home
+                %li
+                  %a{ :href => "#" }television
+                %li
+                  %a{ :href => "#" }film
+                %li
+                  %a{ :href => "#" }kids
+                %li
+                  %a{ :href => "#" }music
+            %li
+              %h3 company
+              %ul
+                %li
+                  %a{ :href => "#" }about us
+                %li
+                  %a{ :href => "#" }privacy policy
+                %li
+                  %a{ :href => "#" }terms &amp; conditions
+                %li
+                  %a{ :href => "#" }press
+                %li
+                  %a{ :href => "#" }faq
+                %li
+                  %a{ :href => "#" }contact
+            %li
+              %h3 connect
+              %ul
+                %li
+                  %a{ :href => "#" }facebook
+                %li
+                  %a{ :href => "#" }twitter
+                %li
+                  %a{ :href => "#" }youtube
+                %li
+                  %a{ :href => "#" }tumblr
+                %li
+                  %a{ :href => "#" }pinterest
+            %li
+              %ul
+                %li
+                  %a{ :href => "#" }Login
+                %li
+                  %a{ :href => "#" }sign-up
+
       %h3 Shout factory
       .searchbox
         %form{:action => '#', :method => 'get', :id => 'search'}
@@ -29,59 +82,6 @@
           %a{:href => "#" } Kids
         %li
           %a{:href => "#" } Music
-    /* Menu DropDown */
-    .menu_dropdown
-      %button.close
-      .menu_container
-        %ul.listmenu
-          %li
-            %h3 menu
-            %ul
-              %li
-                %a{ :href => "#" }home
-              %li
-                %a{ :href => "#" }television
-              %li
-                %a{ :href => "#" }film
-              %li
-                %a{ :href => "#" }kids
-              %li
-                %a{ :href => "#" }music
-          %li
-            %h3 company
-            %ul
-              %li
-                %a{ :href => "#" }about us
-              %li
-                %a{ :href => "#" }privacy policy
-              %li
-                %a{ :href => "#" }terms &amp; conditions
-              %li
-                %a{ :href => "#" }press
-              %li
-                %a{ :href => "#" }faq
-              %li
-                %a{ :href => "#" }contact
-          %li
-            %h3 connect
-            %ul
-              %li
-                %a{ :href => "#" }facebook
-              %li
-                %a{ :href => "#" }twitter
-              %li
-                %a{ :href => "#" }youtube
-              %li
-                %a{ :href => "#" }tumblr
-              %li
-                %a{ :href => "#" }pinterest
-          %li
-            %ul
-              %li
-                %a{ :href => "#" }Login
-              %li
-                %a{ :href => "#" }sign-up
-
 
     = render('welcome/carousel')
 
