@@ -5,7 +5,20 @@ and (max-device-width : 480px) {
 }
 
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
+  body {
+    background: #ff4f54;
+    &:before {
+      display: block;
+      content: "1600px";
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
   body {
     background: #00FF00;
     &:before {
@@ -17,6 +30,7 @@ and (max-device-width : 480px) {
     }
   }
 }
+// @media (min-width: 1200px) {}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -35,7 +49,7 @@ and (max-device-width : 480px) {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
-    background: #ff4f54;
+    // background: #ff4f54;
     margin: 0px;
     padding: 0px;
 
@@ -125,7 +139,7 @@ and (max-device-width : 480px) {
 // @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 @media (max-width: 480px) {
   body {
-    background: #8730ff;
+    // background: #8730ff;
     margin: 0px;
     padding: 0px;
 
@@ -136,6 +150,10 @@ and (max-device-width : 480px) {
       left: 0px;
       top: 0px;
     }
+  }
+
+  .header_logo {
+    padding-left: 10px;
   }
 
   .navigation {
@@ -311,8 +329,51 @@ and (max-device-width : 480px) {
   }
 
   .twolines-slider {
+
     .slide {
       width: 100%;
+    }
+
+    .nav {
+      display: none;
+    }
+  }
+
+  .toptunes-slider {
+
+    .wrapper {
+      padding-left: 0px;
+      padding-right: 0px;
+
+      .wrapper_roller {
+        width: 102%;
+        margin-left: -2%;
+        height: 111px;
+        overflow: hidden;
+      }
+    }
+
+    .slide {
+      width: 32%;
+
+      &:first-child {
+        margin-left: 0px;
+      }
+
+      .digits {
+        left: 15px;
+        top: 10px;
+        font-size: 18px;
+      }
+    }
+
+    .nav {
+      a.prev {
+        left: 10px;
+      }
+      a.next {
+        right: 10px;
+      }
     }
   }
 
