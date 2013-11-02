@@ -7,7 +7,13 @@ and (max-device-width : 480px) {
 /* Large desktop */
 @media (min-width: 1600px) {
   body {
-    background: #ff4f54;
+    width: 1600px;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding-left:0px;
+    padding-right:0px;
+
     &:before {
       display: block;
       content: "1600px";
@@ -16,11 +22,85 @@ and (max-device-width : 480px) {
       top: 10px;
     }
   }
+
+  .carousel-caption {
+
+    h4 {
+      font-size: 44px;
+    }
+
+    p {
+      font-size: 21px;
+      line-height: 28px;
+    }
+
+    .link-button {
+      font-size: 18px;
+      padding: 12px 21px;
+    }
+  }
+
+  .navigation {
+    font-size: 18px;
+
+    a {
+      font-size: 18px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    .icon_menu {
+      width: 200px;
+
+      .auth {
+
+      }
+    }
+
+    .searchbox {
+      width: 300px;
+
+      input#searchbox {
+        width: 300px;
+      }
+    }
+  }
+
+  ul.menu_top {
+    left: 640px;
+
+    li {
+      a {
+        font-size: 21px;
+      }
+    }
+  }
+
+  .b_columns {
+
+    .span4 {
+      font-size: 18px;
+      line-height: 28px;
+
+      header {
+        font-size: 21px;
+        margin-bottom: 12px;
+      }
+      footer {
+        font-size: 16px;
+        margin-top: 12px;
+      }
+    }
+  }
+
+
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
   body {
-    background: #00FF00;
+
     &:before {
       display: block;
       content: "1200px";
@@ -30,12 +110,28 @@ and (max-device-width : 480px) {
     }
   }
 }
-// @media (min-width: 1200px) {}
+
+@media (min-width: 979px) and (max-width: 1200px) {
+  body {
+
+    &:before {
+      display: block;
+      content: "979px => 1200px";
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+  }
+
+  .main_group {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    background: #f6ff0d;
     &:before {
       display: block;
       content: "768px => 979px";
@@ -44,12 +140,42 @@ and (max-device-width : 480px) {
       top: 10px;
     }
   }
+
+  .main_group {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  ul.menu_top {
+    left: 380px;
+  }
+
+  .navigation {
+    .searchbox {
+      width: 172px;
+
+      input#searchbox {
+        width: 140px;
+      }
+    }
+  }
+
+  .carousel-caption {
+    left: 50px;
+    width: 320px;
+
+    h4 {
+      font-size: 30px;
+    }
+
+
+  }
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
-    // background: #ff4f54;
     margin: 0px;
     padding: 0px;
 
@@ -62,8 +188,44 @@ and (max-device-width : 480px) {
     }
   }
 
+  .carousel-control {
+    display: none;
+  }
+
   .navigation {
     padding: 10px;
+    height: 78px;
+
+    .searchbox {
+      width: 245px;
+      margin-left: 0px;
+      float: right;
+
+      input#searchbox {
+        width: 213px;
+      }
+    }
+
+    .icon_menu {
+      float: none;
+      position: absolute;
+      right: 0px;
+      top: -59px;
+    }
+
+    .menu_top {
+      position: static;
+      margin-top: 48px;
+      margin-left: -10px;
+      margin-right: -10px;
+      background: #333333;
+
+      li {
+        a {
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 
   .main_group {
@@ -84,23 +246,80 @@ and (max-device-width : 480px) {
     }
   }
 
-  .carousel.slide {
-    .carousel-caption {
-      left: 50px;
-      top: 50px;
+
+  .menu_dropdown {
+    top: 0px;
+    left: -10px;
+    right: -10px;
+
+    button.close {
+      display: none;
     }
 
-    .carousel-control {
-      &.left {
-        left: 0px;
+    .menu_container {
+      height: 160px;
+    }
+
+    .listmenu {
+      padding: 10px 0;
+
+      li {
+        padding-right: 100px;
+
+        h3 {
+          font-size: 14px;
+        }
+
+        ul {
+          li {
+            width: 100px;
+          }
+        }
       }
-      &.right {
-        right: 0px;
+
+    }
+  }
+
+  .slider {
+    .slide {
+      .digits {
+        font-size: 16px;
+        left: 8px;
+        top: 8px;
+      }
+    }
+  }
+
+  .carousel {
+
+    &.slide {
+
+      .carousel-caption {
+        width: 300px;
+        left: 20px;
+        top: 20px;
+
+        h4 {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          margin-bottom: 10px;
+          line-height: 16px;
+          font-size: 12px;
+        }
       }
     }
   }
 
   .slider {
+    .slide {
+      .sub-slide {
+        margin-bottom: 10px;
+      }
+    }
+
     .nav {
       a.prev {
         left: 10px;
@@ -109,7 +328,14 @@ and (max-device-width : 480px) {
         right: 10px;
       }
     }
+
+    &.twolines-slider {
+      .nav {
+        display: none;
+      }
+    }
   }
+
 
   .elastislide-wrapper {
     nav {
@@ -133,13 +359,14 @@ and (max-device-width : 480px) {
       float: left;
     }
   }
+
+
 }
 
 /* Landscape phones and down */
 // @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 @media (max-width: 480px) {
   body {
-    // background: #8730ff;
     margin: 0px;
     padding: 0px;
 
@@ -153,7 +380,17 @@ and (max-device-width : 480px) {
   }
 
   .header_logo {
+    background: #333;
+    color: #FFF;
+    padding-top: 26px;
+  }
+
+  .header_logo {
     padding-left: 10px;
+  }
+
+  .menu_container {
+    margin-bottom: 20px;
   }
 
   .navigation {
@@ -167,6 +404,7 @@ and (max-device-width : 480px) {
     h3 {
       float: none;
       padding-left: 10px;
+      display: none;
     }
 
     .searchbox {
@@ -190,6 +428,9 @@ and (max-device-width : 480px) {
     .menu_top {
       position: static;
       margin-top: 30px;
+      margin-left: 0px;
+      margin-right: 0px;
+      background: none;
 
       li {
         float: none;
@@ -258,6 +499,7 @@ and (max-device-width : 480px) {
     .menu_container {
       height: auto;
       padding: 10px;
+      padding-bottom: 0px;
     }
 
     .listmenu {
@@ -309,7 +551,6 @@ and (max-device-width : 480px) {
 
   .b_columns {
 
-
     .span4 {
       float: none;
       width: auto;
@@ -326,16 +567,28 @@ and (max-device-width : 480px) {
     padding-left: 10px;
     padding-right: 10px;
     width: auto;
+
+    h2 {
+      line-height: inherit;
+      font-size: 16px;
+    }
   }
 
-  .twolines-slider {
+  .slider {
+    &.twolines-slider {
 
-    .slide {
-      width: 100%;
-    }
+      .slide {
+        width: 100%;
+        margin-left: 0px;
 
-    .nav {
-      display: none;
+        &:first-child {
+          margin-bottom: 10px;
+        }
+      }
+
+      .nav {
+        display: none;
+      }
     }
   }
 
