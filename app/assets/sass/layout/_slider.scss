@@ -196,7 +196,7 @@
 .twolines-slider {
 
   .wrapper {
-    height: 260px;
+    height: auto;
 
     .wrapper_roller {
       width: 102%;
@@ -204,12 +204,12 @@
   }  
   .slide {
     width: 48%;
-    height: 260px;
+    height: auto;
     margin-left: 2%;
     
     .sub-slide {
       width: 48%;
-      height: 120px;
+      height: auto;
 
       &.row {
         margin-left:4%;
