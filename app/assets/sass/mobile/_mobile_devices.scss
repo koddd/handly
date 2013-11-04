@@ -1,9 +1,3 @@
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-
-}
-
 /* Large desktop */
 @media (min-width: 1600px) {
   body {
@@ -14,6 +8,7 @@ and (max-device-width : 480px) {
     padding-left:0px;
     padding-right:0px;
 
+    /*
     &:before {
       display: block;
       content: "1600px";
@@ -21,6 +16,7 @@ and (max-device-width : 480px) {
       left: 10px;
       top: 10px;
     }
+    */
   }
 
   .carousel-caption {
@@ -100,7 +96,7 @@ and (max-device-width : 480px) {
 
 @media (min-width: 1200px) and (max-width: 1600px) {
   body {
-
+    /*
     &:before {
       display: block;
       content: "1200px";
@@ -108,12 +104,14 @@ and (max-device-width : 480px) {
       left: 10px;
       top: 10px;
     }
+    */
   }
 }
 
 @media (min-width: 979px) and (max-width: 1200px) {
-  body {
 
+  body {
+    /*
     &:before {
       display: block;
       content: "979px => 1200px";
@@ -121,71 +119,36 @@ and (max-device-width : 480px) {
       left: 10px;
       top: 10px;
     }
+    */
   }
+
 
   .main_group {
     padding-left: 40px;
     padding-right: 40px;
+    min-width: 799px;
   }
 }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  body {
-    &:before {
-      display: block;
-      content: "768px => 979px";
-      position: absolute;
-      left: 10px;
-      top: 10px;
-    }
-  }
 
-  .main_group {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  ul.menu_top {
-    left: 380px;
-  }
-
-  .navigation {
-    .searchbox {
-      width: 172px;
-
-      input#searchbox {
-        width: 140px;
-      }
-    }
-  }
-
-  .carousel-caption {
-    left: 50px;
-    width: 320px;
-
-    h4 {
-      font-size: 30px;
-    }
-
-
-  }
-
-}
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 979px) {
   body {
     margin: 0px;
     padding: 0px;
 
+    /*
     &:before {
       display: block;
-      content: "to 767px";
+      content: "481px to 979px";
       position: absolute;
       left: 10px;
       top: 10px;
     }
+    */
+
   }
 
   .carousel-control {
@@ -235,17 +198,12 @@ and (max-device-width : 480px) {
     max-width: inherit;
   }
 
-  .header {
-
-  }
-
   .container {
     h2 {
       font-size: 20px;
       line-height: auto;
     }
   }
-
 
   .menu_dropdown {
     top: 0px;
@@ -276,7 +234,6 @@ and (max-device-width : 480px) {
           }
         }
       }
-
     }
   }
 
@@ -365,18 +322,11 @@ and (max-device-width : 480px) {
 
 /* Landscape phones and down */
 // @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* only screen and @media (max-width: 480px) { */
 @media (max-width: 480px) {
   body {
     margin: 0px;
     padding: 0px;
-
-    &:before {
-      display: block;
-      content: "Landscape phones and down 480px";
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
   }
 
   .header_logo {
@@ -439,10 +389,12 @@ and (max-device-width : 480px) {
 
         a {
           display: block;
-          background: #CCCCCC;
+          background: #333;
+          color: #FFF;
 
           &:hover {
-            background: #ECECEC;
+            background: #474747;
+            color: #fff;
           }
         }
       }
@@ -582,7 +534,7 @@ and (max-device-width : 480px) {
         margin-left: 0px;
 
         &:first-child {
-          margin-bottom: 10px;
+          margin-bottom: 4%;
         }
       }
 
@@ -590,9 +542,37 @@ and (max-device-width : 480px) {
         display: none;
       }
     }
+
+    &.staff-slider {
+
+      .nav {
+        display: none;
+
+        a.next, a.prev {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .elastislide-horizontal {
+    nav {
+      display: none;
+    }
   }
 
   .toptunes-slider {
+
+    .slide {
+      margin-bottom: 2%;
+      margin-left: 0px;
+      margin-right: 2%;
+
+      &.slide_br {
+        margin-right: 0px;
+        clear: right;
+      }
+    }
 
     .wrapper {
       padding-left: 0px;
@@ -601,7 +581,7 @@ and (max-device-width : 480px) {
       .wrapper_roller {
         width: 102%;
         margin-left: -2%;
-        height: 111px;
+        height: auto;
         overflow: hidden;
       }
     }
@@ -621,6 +601,8 @@ and (max-device-width : 480px) {
     }
 
     .nav {
+      display: none;
+
       a.prev {
         left: 10px;
       }
@@ -630,4 +612,19 @@ and (max-device-width : 480px) {
     }
   }
 
+  .popupbody {
+    display: none;
+  }
+
 }
+
+
+/* #### Mobile Phones Portrait and Landscape #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  html, body { width:100%;  overflow:hidden; }
+}
+
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  html, body { width:100%;  overflow:hidden; }
+}
+

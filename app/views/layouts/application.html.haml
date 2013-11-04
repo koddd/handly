@@ -3,8 +3,11 @@
   %head
   %title=yield(:title)
   %meta{:charset => Rails.application.config.encoding}
+  %meta{ :name => "viewport", :content => "width=device-width; initial-scale=2.0; maximum-scale=1.0; user-scalable=0;" }
   = stylesheet_link_tag "style"
-  %style{:type => ""}
+  = stylesheet_link_tag "print", :media => "print"
+  // %style{:type => "text/css", :href => "print.css"}
+  // <link rel="stylesheet" type="text/css" href="print.css" media="print">
 
   = javascript_include_tag "application"
   = render('layouts/shim')
