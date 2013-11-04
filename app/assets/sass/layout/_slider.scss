@@ -379,4 +379,14 @@
   }
 }
 
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  .twolines-slider .slide { height: 380px; }
+  .twolines-slider .slide .sub-slide { height: 179px; }
+  .toptunes-slider .slide { height: 161px; }
+  .staff-slider .slide { height: 282px; }
+
+}
+
+
 /** Carousel styles end **/
