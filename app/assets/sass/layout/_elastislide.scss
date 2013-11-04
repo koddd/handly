@@ -42,6 +42,8 @@
 .elastislide-carousel {
   overflow: hidden;
   position: relative;
+  height: 70px;
+
 
   ul {
     position: relative;
@@ -63,8 +65,15 @@
       font-size: 20px;
       text-align: center;
       text-transform: uppercase;
+      float: left;
       width: 18%;
-      margin-right: 2%;
+      // margin-right: 2%;
+      margin-left: 2%;
+
+      &:first-child {
+        margin-left: 0px;
+      }
+
 
       padding-top: 10px;
       padding-bottom: 10px;

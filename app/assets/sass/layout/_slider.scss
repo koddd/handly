@@ -91,7 +91,7 @@
     .sub-slide {
       width:100px;
       height:100px;
-      margin-bottom: 20px;
+      margin-bottom: 4%;
       position:relative;
       float:left;
       
@@ -102,6 +102,10 @@
       &.row {
         clear: right;
         margin-left:20px;
+      }
+
+      &.nm {
+        margin-bottom: 0px;
       }
 
       img {
@@ -136,8 +140,8 @@
   .wrapper {
 
     .wrapper_roller {
-      width: 102%;
-      margin-left: -2%;
+      width: 100%;
+      margin-left: 0%;
     }
   }
   
@@ -172,12 +176,11 @@
 
 
 .toptunes-slider {
-  
-  .wrapper {
 
+  .wrapper {
     .wrapper_roller {
       width: 102%;
-      margin-left: -2%;
+      margin-left: 0%;
     }
   }
   
@@ -187,7 +190,7 @@
     height: auto;
 
     &:first-child {
-      margin-left: 2%;
+      margin-left: 0%;
     }
   }
 }
@@ -201,7 +204,7 @@
     .wrapper_roller {
       width: 102%;
     }
-  }  
+  }
   .slide {
     width: 48%;
     height: auto;
@@ -325,6 +328,7 @@
   padding: 0px;
   background: none;
   width: 450px;
+  padding-top: 10px;
 
   h4 {
     font-size: 36px;

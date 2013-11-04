@@ -239,6 +239,7 @@ ul.menu_top {
   margin:0px;
   padding:0px;
   left:450px;
+  top: 30px;
   position: absolute;
   overflow: hidden;
   
@@ -344,10 +345,6 @@ button.close {
   padding-top:60px;
   position:relative;
   text-align: center;
-}
-.popupbody2 {
-  padding:0px;
-  position:relative;
 }
 
 .popup {
@@ -479,7 +476,8 @@ button.close {
   left:-7%;
   right:-7%;
   width:auto;
-  z-index:5;
+  z-index:500;
+  display: none;
 
   
   .close {
